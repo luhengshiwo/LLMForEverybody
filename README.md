@@ -24,9 +24,13 @@
 
 [Pre-Training预训练Llama-3.1 405B超大杯，需要多少算力资源？](url)
 
+[MoE VS Dense](url)
+
 ### Attention
 
 [看懂FlashAttention需要的数学储备是？高考数学最后一道大题](url)
+
+[MHA, MQA, GQA](url)
 
 ## 大模型训练之Post-Training
 
@@ -48,6 +52,11 @@
 ## 大模型推理
 
 **[⬆ 一键返回目录](#目录)**
+
+[K-V Cache](url)
+
+[Prefilling](url)
+
 
 ## 大模型部署
 
