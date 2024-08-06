@@ -42,7 +42,7 @@
 
 ### Attention
 
-[看懂FlashAttention需要的数学储备是？高考数学最后一道大题](url)
+[FlashAttention V1](https://zhuanlan.zhihu.com/p/713048343)
 
 [MHA, MQA, GQA](url)
 
