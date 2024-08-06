@@ -1,11 +1,8 @@
 <p> 
-<a href="https://github.com/liguodongiot/llm-action/blob/main/pic/wx.jpg"> <img src= > </a>
-<a href="https://www.zhihu.com/people/liguodong-iot"> <img src=> </a>
-<a href="https://liguodong.blog.csdn.net/"> <img src=> </a>
+<a href="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/wechat.png"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/wechat.svg" > </a>
+<a href="https://www.zhihu.com/people/lu-heng-45-95"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/zhihu.svg"> </a>
+<a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/csdn.svg"> </a>
 </p> 
-
-
-
 
 
 ## 目录
