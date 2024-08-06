@@ -1,3 +1,13 @@
+<p> 
+<a href="https://github.com/liguodongiot/llm-action/blob/main/pic/wx.jpg"> <img src= > </a>
+<a href="https://www.zhihu.com/people/liguodong-iot"> <img src=> </a>
+<a href="https://liguodong.blog.csdn.net/"> <img src=> </a>
+</p> 
+
+
+
+
+
 ## 目录
 
 - 🐱 [大模型训练之Pre-Training](#大模型训练之Pre-Training)
@@ -80,3 +90,4 @@
 [9.11大于9.9？大模型怎么又翻车了？](url)
 
 [10分钟教你套壳（不是）Llama-3，小白也能上手](url)
+
