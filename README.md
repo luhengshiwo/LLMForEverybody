@@ -79,7 +79,7 @@
 ## 大模型应用
 
 **[⬆ 一键返回目录](#目录)**
-
+[Prompt Engineering](https://zhuanlan.zhihu.com/p/713318025)
 
 ## 显卡知识
 
