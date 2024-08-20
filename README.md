@@ -57,6 +57,8 @@
 
 [过去式就能越狱大模型？一文了解大模型安全攻防战！](https://zhuanlan.zhihu.com/p/713100677)
 
+[Prompt Engineering](https://zhuanlan.zhihu.com/p/713318025)
+
 ## 大模型微调
 
 **[⬆ 一键返回目录](#目录)**
@@ -79,11 +81,12 @@
 
 **[⬆ 一键返回目录](#目录)**
 
-[Prompt Engineering](https://zhuanlan.zhihu.com/p/713318025)
+[大模型output token为什么比input token贵？](https://zhuanlan.zhihu.com/p/715121827)
 
 [大模型落地难点之结构化输出](https://zhuanlan.zhihu.com/p/714961812)
 
-[大模型output token为什么比input token贵？](https://zhuanlan.zhihu.com/p/715121827)
+[大模型落地难点之输出的不确定性](https://blog.csdn.net/qq_25295605/article/details/141332480)
+
 
 ## 显卡知识
 
