@@ -78,7 +78,9 @@ V2 相对于 V1 的第二个主要更新是增加了序列长度维度的并行�
 
 [2] [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)
 
-[3] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
+[3] [FlashAttention2详解（性能比FlashAttention提升200%](https://cloud.tencent.com/developer/article/2353093)
+
+[4] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
 
 
