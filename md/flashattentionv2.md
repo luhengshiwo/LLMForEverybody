@@ -1,3 +1,5 @@
+FlashAttention V2在减少计算量和内存访问的同时，保持了算法的精度和效率，实现了更快的Attention计算。这些优化使得V2版本在A100 GPU上前向传播的速度提升了大约2倍，达到了理论计算峰值的50%-73%。
+
 ## 1. FlashAttention v1
 
 > $Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$
