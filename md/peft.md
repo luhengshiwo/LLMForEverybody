@@ -3,7 +3,7 @@ Parameter efficient Fine-tuning (PEFT)
 
 ## 1. Fine-tuning
 
-相较于基础大模型动辄万卡的代价，微调可能是普通个人或者企业能够接受的后训练大模型(post-training)的方式。
+相较于基础大模型动辄万卡的代价，微调可能是普通个人或者企业少数能够接受的后训练大模型(post-training)的方式。
 
 微调是指在一个预训练模型(pre-training)的基础上，通过少量的数据和计算资源，对模型进行进一步训练，以适应特定的任务或者数据集。
 >0
