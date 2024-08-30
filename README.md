@@ -15,6 +15,8 @@
 ## 目录
 
 - 🐱 [大模型训练之Pre-Training](#大模型训练之Pre-Training)
+ - 🐭[Attention](#Attention)
+ - 🐯[位置编码](#位置编码)
 - 🐶[大模型训练之post-training](#大模型训练之Post-Training)
   - 🐹[对齐](#对齐)
 - 🐭[Prompt Engineering](#Prompt-Engineering)
@@ -44,6 +46,10 @@
 
 [Attention机制: MHA, MQA, GQA](https://zhuanlan.zhihu.com/p/714323628)
 
+### 位置编码
+[复变函数在大模型位置编码中的应用](https://blog.csdn.net/qq_25295605/article/details/141708680)
+
+
 ## 大模型训练之Post-Training
 
 **[⬆ 一键返回目录](#目录)**
@@ -65,11 +71,15 @@
 
 [10分钟教你套壳（不是）Llama-3，小白也能上手](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483895&idx=1&sn=72e9ca9874aeb4fd51a076c14341242f&chksm=c20485c5f5730cd38f43cf32cc851ade15286d5bd14c8107906449f8c52db9d3bfd72cfc40c8&token=607452854&lang=zh_CN#rd)
 
+[]()
+
 ## 大模型推理
 
 **[⬆ 一键返回目录](#目录)**
 
 [K-V Cache & Prefilling](https://zhuanlan.zhihu.com/p/714128928)
+
+[大模型的latency（延迟）和throughput（吞吐量）有什么区别？](https://blog.csdn.net/qq_25295605/article/details/141706600?spm=1001.2014.3001.5502)
 
 ## 大模型部署
 
