@@ -112,6 +112,3 @@ Weight packing（权重打包）是量化中的一个概念，它涉及将多个
 [3] [deeplearning.ai](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
 
 [4] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
-
-
-
