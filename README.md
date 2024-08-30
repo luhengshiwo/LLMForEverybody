@@ -15,8 +15,8 @@
 ## 目录
 
 - 🐱 [大模型训练之Pre-Training](#大模型训练之Pre-Training)
- - 🐭[Attention](#Attention)
- - 🐯[位置编码](#位置编码)
+  - 🐭[Attention](#Attention)
+  - 🐯[位置编码](#位置编码)
 - 🐶[大模型训练之post-training](#大模型训练之Post-Training)
   - 🐹[对齐](#对齐)
 - 🐭[Prompt Engineering](#Prompt-Engineering)
