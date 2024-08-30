@@ -98,6 +98,8 @@
 
 **[⬆ 一键返回目录](#目录)**
 
+[Langchain向左，扣子向右](https://blog.csdn.net/qq_25295605/article/details/141397147?spm=1001.2014.3001.5502)
+
 [大模型output token为什么比input token贵？](https://zhuanlan.zhihu.com/p/715121827)
 
 [大模型落地难点之结构化输出](https://zhuanlan.zhihu.com/p/714961812)
@@ -120,5 +122,3 @@
 [Llama 3.1 405B 为什么这么大？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483782&idx=1&sn=3a14a0cde14eb6643beaeb5b472ffa26&chksm=c20485b4f5730ca2d7b002a29e617a75c08d004a1b3da891ab352cbe31ca37541a546e29abc7&token=607452854&lang=zh_CN#rd)
 
 [9.11大于9.9？大模型怎么又翻车了？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483800&idx=1&sn=48b326352c37d686f7f46ee5df9f00b4&chksm=c20485aaf5730cbca8f0dfcb9746830229b8f07eec092e0e124bc558d1073ee32e3f55716221&token=607452854&lang=zh_CN#rd)
-
-
