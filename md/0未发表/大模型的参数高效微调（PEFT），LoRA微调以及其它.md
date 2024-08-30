@@ -1,5 +1,5 @@
 Parameter efficient Fine-tuning (PEFT)
-参数高效微调（PEFT），LoRA，Prompt-tuning以及其它
+大模型的参数高效微调（PEFT），LoRA微调以及其它
 
 ## 1. Fine-tuning
 
