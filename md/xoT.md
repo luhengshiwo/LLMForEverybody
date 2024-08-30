@@ -7,8 +7,23 @@
 大模型出现幻觉，简而言之就是“胡说八道”。
 用《A Survey on Hallucination in Large Language Models》文中的话来讲，是指模型生成的内容与现实世界事实或用户输入不一致的现象。
 研究人员将大模型的幻觉分为事实性幻觉（Factuality Hallucination）和忠实性幻觉（Faithfulness Hallucination）。
+
 > 2
 
+
+## 2. 处理幻觉
+在生产中，我们不喜欢hallucinations，我们需要准确的、正确的回答。
+
+在实际生产落地中，我们会循序渐进的采用如下策略来提高准确性，降低幻觉：
+
+| 策略 | 难度| 数据要求|准确性提升|
+| :--- |:----:| :----: |---: |
+| Prompt engineering|低|无| 26% |
+| Self-reflection |低| 无|26-40% |
+| Few-shot learning (with RAG)|中|少量|50% |
+| Instruction Fine-tuning |高|中等|40-60%|
+
+我们看下Prompt engineering中有哪些方法可以提高准确性。
 
 ## COT: Chain of Thought
 
@@ -83,6 +98,3 @@ GoT 的核心思想和主要优势在于能够将 LLM 生成的信息建模为�
 [7] [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/abs/2311.05232)
 
 [8] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
-
-
-

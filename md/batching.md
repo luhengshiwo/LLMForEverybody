@@ -8,7 +8,7 @@ Q：我们的prompts token数量在1500-2000之间，completion token数量在50
 
 你是否看出来答非所问了？
 
-问的是latency，回答的是throughput。那这两个词有什么区别？导致连这个领域的销售都会搞混？
+问的和latency相关，回答的是throughput。那这两个词有什么区别？导致连这个领域的销售都会搞混？
 >11
 
 在搞懂latency和throughput之前，我们先来看看KV cache 和 prefilling。
