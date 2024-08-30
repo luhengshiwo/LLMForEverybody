@@ -44,11 +44,19 @@
 
 [FlashAttention V1](https://zhuanlan.zhihu.com/p/713048343)
 
+[FlashAttention V2](https://blog.csdn.net/qq_25295605/article/details/141633955?spm=1001.2014.3001.5502)
+
 [Attention机制: MHA, MQA, GQA](https://zhuanlan.zhihu.com/p/714323628)
 
 ### 位置编码
+
 [复变函数在大模型位置编码中的应用](https://blog.csdn.net/qq_25295605/article/details/141708680)
 
+[最美的数学公式-欧拉公式](https://blog.csdn.net/qq_25295605/article/details/141571407?spm=1001.2014.3001.5502)
+
+[什么是大模型的位置编码Position Encoding?](https://blog.csdn.net/qq_25295605/article/details/141571042?spm=1001.2014.3001.5502)
+
+[从欧拉公式的美到旋转位置编码RoPE](https://blog.csdn.net/qq_25295605/article/details/141630770?spm=1001.2014.3001.5502)
 
 ## 大模型训练之Post-Training
 
@@ -71,7 +79,6 @@
 
 [10分钟教你套壳（不是）Llama-3，小白也能上手](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483895&idx=1&sn=72e9ca9874aeb4fd51a076c14341242f&chksm=c20485c5f5730cd38f43cf32cc851ade15286d5bd14c8107906449f8c52db9d3bfd72cfc40c8&token=607452854&lang=zh_CN#rd)
 
-[]()
 
 ## 大模型推理
 
@@ -96,6 +103,10 @@
 [大模型落地难点之结构化输出](https://zhuanlan.zhihu.com/p/714961812)
 
 [大模型落地难点之输出的不确定性](https://blog.csdn.net/qq_25295605/article/details/141332480)
+
+[大模型落地难点之幻觉](https://blog.csdn.net/qq_25295605/article/details/141397248?spm=1001.2014.3001.5502)
+
+[CRUD/ETL工程师的末日?从NL2SQL到ChatBI](https://blog.csdn.net/qq_25295605/article/details/141436495?spm=1001.2014.3001.5502)
 
 
 ## 显卡知识
