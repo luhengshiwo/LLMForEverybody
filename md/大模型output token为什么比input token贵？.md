@@ -37,4 +37,5 @@
 小知识+1，可以和朋友们吹牛了！
 ## 参考
 - [1] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
+
 ![请添加图片描述](https://i-blog.csdnimg.cn/direct/02e55ad5e30040b599b45c4cc6b811ad.png)
