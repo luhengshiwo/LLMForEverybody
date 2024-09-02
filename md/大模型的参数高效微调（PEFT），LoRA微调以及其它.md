@@ -80,7 +80,7 @@ Prompt Tuning的实现步骤主要包括：
 
 ## 5. 其它PEFT方法
 除了最流行的LoRA和Prompt-tuning方法外，还有一些其他的参数高效微调方法，如：
-P-tuning和Perfix-tuning等。但我也没有细看，也没有用过，所以不做详细介绍。但可以参考Huggingface的PEFT文档。
+P-tuning和Perfix-tuning等。但我也没有细看，工作中也没有用过，所以不做详细介绍。但可以参考Huggingface的PEFT文档。
 
 
 ## 参考
