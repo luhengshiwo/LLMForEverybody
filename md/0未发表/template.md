@@ -23,7 +23,10 @@
 
 <div id="refer-anchor-1"></div>
 
-[1] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
+## 欢迎关注我的GitHub和微信公众号：
+
+[GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
+
 
 
 

@@ -99,4 +99,6 @@ GoT 的核心思想和主要优势在于能够将 LLM 生成的信息建模为�
 
 [7] [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/abs/2311.05232)
 
-[8] [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
+## 欢迎关注我的GitHub和微信公众号：
+
+[GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
