@@ -1,4 +1,4 @@
-Prompt Engineering中思维链，思维树，思维图，这些都是什么？
+COT思维链，TOT思维树，GOT思维图，这些都是什么？
 
 ## 1. 导入
 
