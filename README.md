@@ -40,6 +40,8 @@
 
 [MoE VS Dense (pending)](url)
 
+[大家都谈的Scaling Law是什么?](https://blog.csdn.net/qq_25295605/article/details/141950871)
+
 ### Attention
 
 [FlashAttention V1](https://zhuanlan.zhihu.com/p/713048343)
@@ -73,11 +75,17 @@
 
 [Prompt Engineering](https://zhuanlan.zhihu.com/p/713318025)
 
+[COT思维链，TOT思维树，GOT思维图，这些都是什么？](https://blog.csdn.net/qq_25295605/article/details/141885831)
+
 ## 大模型微调
 
 **[⬆ 一键返回目录](#目录)**
 
 [10分钟教你套壳（不是）Llama-3，小白也能上手](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483895&idx=1&sn=72e9ca9874aeb4fd51a076c14341242f&chksm=c20485c5f5730cd38f43cf32cc851ade15286d5bd14c8107906449f8c52db9d3bfd72cfc40c8&token=607452854&lang=zh_CN#rd)
+
+[大模型的参数高效微调（PEFT），LoRA微调以及其它](https://blog.csdn.net/qq_25295605/article/details/141807242)
+
+[10分钟理解大模型的量化](https://blog.csdn.net/qq_25295605/article/details/141951407)
 
 
 ## 大模型推理
@@ -98,6 +106,8 @@
 
 **[⬆ 一键返回目录](#目录)**
 
+[Langchain向左，扣子向右](https://blog.csdn.net/qq_25295605/article/details/141397147?spm=1001.2014.3001.5502)
+
 [大模型output token为什么比input token贵？](https://zhuanlan.zhihu.com/p/715121827)
 
 [大模型落地难点之结构化输出](https://zhuanlan.zhihu.com/p/714961812)
@@ -107,6 +117,10 @@
 [大模型落地难点之幻觉](https://blog.csdn.net/qq_25295605/article/details/141397248?spm=1001.2014.3001.5502)
 
 [CRUD/ETL工程师的末日?从NL2SQL到ChatBI](https://blog.csdn.net/qq_25295605/article/details/141436495?spm=1001.2014.3001.5502)
+
+[大模型有哪些评估指标？](https://blog.csdn.net/qq_25295605/article/details/141809560)
+
+[开发大模型or使用大模型?](https://blog.csdn.net/qq_25295605/article/details/141884573)
 
 
 ## 显卡知识
@@ -120,5 +134,3 @@
 [Llama 3.1 405B 为什么这么大？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483782&idx=1&sn=3a14a0cde14eb6643beaeb5b472ffa26&chksm=c20485b4f5730ca2d7b002a29e617a75c08d004a1b3da891ab352cbe31ca37541a546e29abc7&token=607452854&lang=zh_CN#rd)
 
 [9.11大于9.9？大模型怎么又翻车了？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483800&idx=1&sn=48b326352c37d686f7f46ee5df9f00b4&chksm=c20485aaf5730cbca8f0dfcb9746830229b8f07eec092e0e124bc558d1073ee32e3f55716221&token=607452854&lang=zh_CN#rd)
-
-
