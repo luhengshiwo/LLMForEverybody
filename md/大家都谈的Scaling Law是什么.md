@@ -60,7 +60,7 @@ Scaling Law 规模定律通常会和摩尔定律相提并论, 摩尔定律在过
 
 [1] [deeplearning.ai](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
 
-[2] [定律百科](https://baike.baidu.com/item/%E5%AE%9A%E5%BE%8B/2076576)
+[2] [定律-百科](https://baike.baidu.com/item/%E5%AE%9A%E5%BE%8B/2076576)
 
 ## 欢迎关注我的GitHub和微信公众号：
 
