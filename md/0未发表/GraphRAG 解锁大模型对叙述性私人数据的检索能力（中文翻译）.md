@@ -1,4 +1,4 @@
-GraphRAG: Unlocking LLM discovery on narrative private data（中文翻译）
+GraphRAG: 解锁大模型对叙述性私人数据的检索能力（中文翻译）
 
 https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
 
