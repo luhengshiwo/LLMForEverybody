@@ -67,7 +67,7 @@ Normalization技术旨在应对内部协变量偏移问题，它的核心在于�
 
 [2] [Build Better Deep Learning Models with Batch and Layer Normalization](https://www.pinecone.io/learn/batch-layer-normalization/)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

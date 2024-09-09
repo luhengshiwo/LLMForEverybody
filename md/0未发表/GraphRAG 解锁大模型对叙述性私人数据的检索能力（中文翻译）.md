@@ -110,7 +110,7 @@ Query: “What are the top 5 themes in the data?“
 ## 正文结束
 
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

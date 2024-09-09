@@ -108,7 +108,7 @@ OpenAI一开始也没有想到可以用decoder做语言模型,只是在探索过
 
 [8] [36k:Transformer论文「重磅更新」，八子全部离职](https://36kr.com/p/2372013517760776)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

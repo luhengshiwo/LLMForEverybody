@@ -71,7 +71,7 @@ Transformer的一个很大的优点是可以很好的利用GPU的并行计算能
 
 [2] [pytorch_FSDP_tutorial](https://pytorch.org/tutorials/intermediate/FSDP_tutorial.html)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

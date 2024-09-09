@@ -173,7 +173,7 @@ Nested agents是指一个agent里面还有一个agent，这个是最复杂的协
 
 [2] [autogen](https://github.com/microsoft/autogen)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

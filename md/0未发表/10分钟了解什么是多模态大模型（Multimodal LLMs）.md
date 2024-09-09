@@ -86,7 +86,7 @@ MLLMs的核心优势在于它们能够处理和理解来自不同模态的信息
 
 [3] [NExT-GPT: Any-to-Any Multimodal Large Language Model](https://next-gpt.github.io/)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

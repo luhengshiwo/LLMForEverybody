@@ -1,4 +1,4 @@
-韩国N号房2.0：没有人能逃过DeepFake的魔爪？我们应该如何应对？
+韩国“N 号房”事件因Deep Fake再现，探究背后的技术和应对方法
 
 ## 1. 背景
 据《环球时报》援引韩媒报道，针对女性的深度伪造犯罪在韩国日趋猖獗，不仅大学校园中出现此类案件，甚至连中小学、军队等场所也成为高发地。社交媒体上，特别是Telegram群组中不断有受害学校及被害者信息流出。
@@ -89,7 +89,7 @@ Diffussion Model是最近流行的AIGC模型之一，它是一种生成模型，
 
 [6] [Diffusion Deepfake](https://arxiv.org/abs/2404.01579)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

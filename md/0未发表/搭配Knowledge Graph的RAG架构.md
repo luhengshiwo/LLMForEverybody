@@ -55,7 +55,7 @@ RAG技术之所以重要，是因为它解决了LLM面临的一些关键挑战�
 
 [1] [deeplearning.ai](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)
 
-## 欢迎关注我的GitHub和微信公众号：
+## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
