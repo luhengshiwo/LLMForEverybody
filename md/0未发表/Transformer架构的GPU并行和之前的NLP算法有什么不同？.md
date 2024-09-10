@@ -1,4 +1,4 @@
-Transformer架构的GPU并行和之前的NLP算法有什么不同？
+Transformer架构的GPU并行和之前的NLP算法并行有什么不同？
 
 ## 1. 什么是GPU并行计算？
 

@@ -1,3 +1,6 @@
+https://learn.deeplearning.ai/courses/red-teaming-llm-applications/lesson/3/red-teaming-llms
+
+
 ## 1. 导入
 
 
