@@ -127,6 +127,6 @@ $ curl http://localhost:8000/v1/completions \
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
-
+仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
 
 

@@ -71,6 +71,6 @@ Normalization技术旨在应对内部协变量偏移问题，它的核心在于�
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
-
+仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
 
 

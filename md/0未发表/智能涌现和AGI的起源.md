@@ -112,6 +112,6 @@ OpenAI一开始也没有想到可以用decoder做语言模型,只是在探索过
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
-
+仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
 
 

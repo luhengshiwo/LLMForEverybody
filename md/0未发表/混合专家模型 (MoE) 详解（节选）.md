@@ -98,6 +98,6 @@ MoE 的 量化 也是一个有趣的研究领域。例如，QMoE (2023 年 10 �
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
-
+仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
 
 

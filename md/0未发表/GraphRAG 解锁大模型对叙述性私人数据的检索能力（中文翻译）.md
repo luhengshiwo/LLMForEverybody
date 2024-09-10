@@ -1,4 +1,4 @@
-GraphRAG: 解锁大模型对叙述性私人数据的检索能力（中文翻译）
+GraphRAG: 解锁大模型对叙述性私有数据的检索能力（中文翻译）
 
 https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
 
@@ -9,7 +9,11 @@ https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-o
 
 由于译者水平有限，翻译过程中难免会有错误，还请大家多多包涵。如果有任何问题，欢迎在评论区指出，我会尽快修改。
 
+对于标题中的Narrative Private Data，这里翻译成了叙述性私有数据，如果有更好的翻译，欢迎指出。
+
 阅读提示：文中使用的数据集包含敏感主题，译者只做翻译，译文不代表译者立场。
+
+
 
 ## 正文开始：
 
@@ -114,6 +118,6 @@ Query: “What are the top 5 themes in the data?“
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
-
+仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
 
 

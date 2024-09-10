@@ -90,6 +90,6 @@ MLLMs的核心优势在于它们能够处理和理解来自不同模态的信息
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
-
+仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
 
 
