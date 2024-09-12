@@ -1,4 +1,4 @@
-vLLM: 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）
+vLLM: 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文翻译）
 
 ## 写在最前面
 在学习vLLM和PagedAttention的过程中，我发现了很多非常优质的资料。其中最有价值应该是这篇vLLM的官方博客：https://blog.vllm.ai/2023/06/20/vllm.html
