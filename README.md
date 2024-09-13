@@ -1,20 +1,21 @@
 <p align="center">
-  <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/pr/banner.jpg"" >
+  <img src="pic/common/pr/banner.jpg" >
 </p>
 
 <p> 
 <a href="https://github.com/luhengshiwo/LLMForEverybody/stargazers">
-<img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/github.svg" > </a>
-<a href="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/pr/wechat.png"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/wechat.svg" > </a>
-<a href="https://www.zhihu.com/people/lu-heng-45-95"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/zhihu.svg"> </a>
-<a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/csdn.svg"> </a>
-<a href="https://juejin.cn/user/3824524390049531"> <img src="https://github.com/luhengshiwo/LLMForEverybody/blob/main/pic/common/svg/juejin.svg"> </a>
+<img src="pic/common/svg/github.svg" > </a>
+<a href="pic/common/pr/wechat.png"> <img src="pic/common/svg/wechat.svg" > </a>
+<a href="https://www.zhihu.com/people/lu-heng-45-95"> <img src="pic/common/svg/zhihu.svg"> </a>
+<a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"> <img src="pic/common/svg/csdn.svg"> </a>
+<a href="https://juejin.cn/user/3824524390049531"> <img src="pic/common/svg/juejin.svg"> </a>
 </p> 
 
 
 ## 目录
 
-- 🐱 [大模型训练之Pre-Training](#大模型训练之Pre-Training)
+- 🐳[序-AGI之路](#序-AGI之路)
+- 🐱[大模型训练之Pre-Training](#大模型训练之Pre-Training)
   - 🐭[Attention](#Attention)
   - 🐯[位置编码](#位置编码)
 - 🐶[大模型训练之post-training](#大模型训练之Post-Training)
@@ -25,9 +26,11 @@
 - 🐨[大模型部署](#大模型部署)
 - 🦁[大模型应用](#大模型应用)
 - 🐘[显卡知识](#显卡知识)
-- 🐳[时事热点](#时事热点)
 
 
+## 序-AGI之路
+[大家都谈的Scaling Law是什么](<0-序-AGI之路/大家都谈的Scaling Law是什么.md>)
+[智能涌现和AGI的起源](0-序-AGI之路/智能涌现和AGI的起源.md)
 
 ## 大模型训练之Pre-Training
 
