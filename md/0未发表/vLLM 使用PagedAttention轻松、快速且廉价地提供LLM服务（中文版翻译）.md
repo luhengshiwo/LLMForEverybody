@@ -122,11 +122,8 @@ $ curl http://localhost:8000/v1/completions \
 有关使用 vLLM 的更多方法，请查看[快速入门指南](https://docs.vllm.ai/en/latest/getting_started/quickstart.html)。
 
 
-
 ## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
 仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
-
-
