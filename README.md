@@ -33,6 +33,9 @@
 
 **[⬆ 一键返回目录](#目录)** 
 
+[智能涌现和AGI的起源](https://zhuanlan.zhihu.com/p/719462728)
+
+[韩国“N 号房”事件因Deep Fake再现，探究背后的技术和应对方法](https://zhuanlan.zhihu.com/p/719011284)
 
 [什么是perplexity](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483766&idx=1&sn=56563281557b6f58feacb935eb6a872a&chksm=c2048544f5730c52cf2bf4c9ed60ac0a21793bacdddc4d63b481d4aa887bc6a838fecf0b6cc7&token=607452854&lang=zh_CN#rd)
 
@@ -96,6 +99,8 @@
 
 [大模型的latency（延迟）和throughput（吞吐量）有什么区别？](https://blog.csdn.net/qq_25295605/article/details/141706600?spm=1001.2014.3001.5502)
 
+[vLLM: 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文翻译）](https://zhuanlan.zhihu.com/p/719900186) 
+
 ## 大模型部署
 
 **[⬆ 一键返回目录](#目录)**
@@ -122,6 +127,7 @@
 
 [开发大模型or使用大模型?](https://blog.csdn.net/qq_25295605/article/details/141884573)
 
+[Agent设计范式与常见框架](https://zhuanlan.zhihu.com/p/719237443)
 
 ## 显卡知识
 
@@ -129,8 +135,12 @@
 
 [AGI时代人人都可以看懂的显卡知识](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247484001&idx=1&sn=5a178a9006cc308f2e84b5a0db6994ff&chksm=c2048653f5730f45b3b08af03023aee24969d89ad5586e4e25c68b09393bf5a8abfd9670a6f3&token=607452854&lang=zh_CN#rd)
 
+[Transformer架构的GPU并行和之前的NLP算法并行有什么不同？](https://zhuanlan.zhihu.com/p/719665585)
+
 ## 时事热点
 
 [Llama 3.1 405B 为什么这么大？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483782&idx=1&sn=3a14a0cde14eb6643beaeb5b472ffa26&chksm=c20485b4f5730ca2d7b002a29e617a75c08d004a1b3da891ab352cbe31ca37541a546e29abc7&token=607452854&lang=zh_CN#rd)
 
 [9.11大于9.9？大模型怎么又翻车了？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483800&idx=1&sn=48b326352c37d686f7f46ee5df9f00b4&chksm=c20485aaf5730cbca8f0dfcb9746830229b8f07eec092e0e124bc558d1073ee32e3f55716221&token=607452854&lang=zh_CN#rd)
+
+[Open AI的o1用强化学习突破LLM推理极限，我们用强化学习的思想解决不知道吃什么的选择困难症](https://zhuanlan.zhihu.com/p/719892728)
