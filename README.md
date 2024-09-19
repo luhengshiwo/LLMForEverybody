@@ -122,11 +122,13 @@
 
 [向量数据库拥抱大模型](7-第七章-Agent/向量数据库拥抱大模型.md)
 
+[搭配Knowledge-Graph的RAG架构](<7-第七章-Agent/搭配Knowledge Graph的RAG架构.md>)
+
 ## 第八章-大模型企业落地
 
 **[⬆ 一键返回目录](#目录)**
 
-[CRUD ETL工程师的末日从NL2SQL到ChatBI](8-第八章-大模型企业落地/CRUDETL工程师的末日从NL2SQL到ChatBI.md)
+[CRUD-ETL工程师的末日从NL2SQL到ChatBI](8-第八章-大模型企业落地/CRUDETL工程师的末日从NL2SQL到ChatBI.md)
 
 [大模型落地难点之幻觉](8-第八章-大模型企业落地/大模型落地难点之幻觉.md)
 
