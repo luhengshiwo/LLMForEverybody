@@ -32,9 +32,9 @@
 
 **[⬆ 一键返回目录](#目录)** 
 
-[大家都谈的Scaling Law是什么](<0-序-AGI之路/大家都谈的Scaling Law是什么.md>)
+[大家都谈的Scaling Law是什么](<00-序-AGI之路/大家都谈的Scaling Law是什么.md>)
 
-[智能涌现和AGI的起源](0-序-AGI之路/智能涌现和AGI的起源.md)
+[智能涌现和AGI的起源](00-序-AGI之路/智能涌现和AGI的起源.md)
 
 [什么是perplexity](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483766&idx=1&sn=56563281557b6f58feacb935eb6a872a&chksm=c2048544f5730c52cf2bf4c9ed60ac0a21793bacdddc4d63b481d4aa887bc6a838fecf0b6cc7&token=607452854&lang=zh_CN#rd)
 
@@ -46,35 +46,35 @@
 
 ### Attention机制
 
-[看懂FlashAttention需要的数学储备是？高考数学最后一道大题](1-第一章-预训练/看懂FlashAttention需要的数学储备是？高考数学最后一道大题！.md)
+[看懂FlashAttention需要的数学储备是？高考数学最后一道大题](01-第一章-预训练/看懂FlashAttention需要的数学储备是？高考数学最后一道大题！.md)
 
-[FlashAttention v2相比于v1有哪些更新？](<1-第一章-预训练/FlashAttention v2相比于v1有哪些更新？.md>)
+[FlashAttention v2相比于v1有哪些更新？](<01-第一章-预训练/FlashAttention v2相比于v1有哪些更新？.md>)
 
-[为什么会发展出Multi Query Attention和Group Query Attention](<1-第一章-预训练/为什么会发展出Multi Query Attention和Group Query Attention.md>)
+[为什么会发展出Multi Query Attention和Group Query Attention](<01-第一章-预训练/为什么会发展出Multi Query Attention和Group Query Attention.md>)
 
 ### 位置编码
 
-[什么是大模型的位置编码Position Encoding](<1-第一章-预训练/什么是大模型的位置编码Position Encoding.md>)
+[什么是大模型的位置编码Position Encoding](<01-第一章-预训练/什么是大模型的位置编码Position Encoding.md>)
 
-[复变函数在大模型位置编码中的应用](1-第一章-预训练/复变函数在大模型位置编码中的应用.md)
+[复变函数在大模型位置编码中的应用](01-第一章-预训练/复变函数在大模型位置编码中的应用.md)
 
-[最美的数学公式-欧拉公式](1-第一章-预训练/最美的数学公式-欧拉公式.md)
+[最美的数学公式-欧拉公式](01-第一章-预训练/最美的数学公式-欧拉公式.md)
 
-[从欧拉公式的美到旋转位置编码RoPE](1-第一章-预训练/从欧拉公式的美到旋转位置编码RoPE.md)
+[从欧拉公式的美到旋转位置编码RoPE](01-第一章-预训练/从欧拉公式的美到旋转位置编码RoPE.md)
 
 ## 第二章-大模型之部署与推理
 
 **[⬆ 一键返回目录](#目录)**
 
-[10分钟私有化部署大模型到本地](2-第二章-部署与推理/10分钟私有化部署大模型到本地.md)
+[10分钟私有化部署大模型到本地](02-第二章-部署与推理/10分钟私有化部署大模型到本地.md)
 
-[大模型output token为什么比input token贵](<2-第二章-部署与推理/大模型output token为什么比input token贵？.md>)
+[大模型output token为什么比input token贵](<02-第二章-部署与推理/大模型output token为什么比input token贵？.md>)
 
-[如何评判大模型的输出速度？首Token延迟和其余Token延迟有什么不同？](2-第二章-部署与推理/如何评判大模型的输出速度？首Token延迟和其余Token延迟有什么不同？.md)
+[如何评判大模型的输出速度？首Token延迟和其余Token延迟有什么不同？](02-第二章-部署与推理/如何评判大模型的输出速度？首Token延迟和其余Token延迟有什么不同？.md)
 
-[大模型的latency（延迟）和throughput（吞吐量）有什么区别](2-第二章-部署与推理/大模型的latency（延迟）和throughput（吞吐量）有什么区别.md)
+[大模型的latency（延迟）和throughput（吞吐量）有什么区别](02-第二章-部署与推理/大模型的latency（延迟）和throughput（吞吐量）有什么区别.md)
 
-[vLLM 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）](<2-第二章-部署与推理/vLLM 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）.md>)
+[vLLM 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）](<02-第二章-部署与推理/vLLM 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）.md>)
 
 ## 第三章-大模型微调
 
@@ -82,13 +82,13 @@
 
 [10分钟教你套壳（不是）Llama-3，小白也能上手](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483895&idx=1&sn=72e9ca9874aeb4fd51a076c14341242f&chksm=c20485c5f5730cd38f43cf32cc851ade15286d5bd14c8107906449f8c52db9d3bfd72cfc40c8&token=607452854&lang=zh_CN#rd)
 
-[大模型的参数高效微调（PEFT），LoRA微调以及其它](3-第三章-微调/大模型的参数高效微调（PEFT），LoRA微调以及其它.md)
+[大模型的参数高效微调（PEFT），LoRA微调以及其它](03-第三章-微调/大模型的参数高效微调（PEFT），LoRA微调以及其它.md)
 
 ## 第四章-大模型量化
 
 **[⬆ 一键返回目录](#目录)**
 
-[10分钟理解大模型的量化](4-第四章-量化/10分钟理解大模型的量化.md)
+[10分钟理解大模型的量化](04-第四章-量化/10分钟理解大模型的量化.md)
 
 ## 第五章-显卡与大模型并行
 
@@ -96,49 +96,49 @@
 
 [AGI时代人人都可以看懂的显卡知识](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247484001&idx=1&sn=5a178a9006cc308f2e84b5a0db6994ff&chksm=c2048653f5730f45b3b08af03023aee24969d89ad5586e4e25c68b09393bf5a8abfd9670a6f3&token=607452854&lang=zh_CN#rd)
 
-[Transformer架构的GPU并行和之前的NLP算法有什么不同？](5-第五章-显卡与并行/Transformer架构的GPU并行和之前的NLP算法有什么不同？.md)
+[Transformer架构的GPU并行和之前的NLP算法有什么不同？](05-第五章-显卡与并行/Transformer架构的GPU并行和之前的NLP算法有什么不同？.md)
 
 ## 第六章-Prompt-Engineering
 
 **[⬆ 一键返回目录](#目录)**
 
-[过去式就能越狱大模型？一文了解大模型安全攻防战！](<6-第六章-Prompt Engineering/assest/过去式就能越狱大模型？一文了解大模型安全攻防战！.md>)
+[过去式就能越狱大模型？一文了解大模型安全攻防战！](<06-第六章-Prompt Engineering/assest/过去式就能越狱大模型？一文了解大模型安全攻防战！.md>)
 
-[万字长文 Prompt Engineering-解锁大模型的力量](<6-第六章-Prompt Engineering/assest/万字长文 Prompt Engineering-解锁大模型的力量.md>)
+[万字长文 Prompt Engineering-解锁大模型的力量](<06-第六章-Prompt Engineering/assest/万字长文 Prompt Engineering-解锁大模型的力量.md>)
 
-[COT思维链，TOT思维树，GOT思维图，这些都是什么？](<6-第六章-Prompt Engineering/assest/COT思维链，TOT思维树，GOT思维图，这些都是什么？.md>)
+[COT思维链，TOT思维树，GOT思维图，这些都是什么？](<06-第六章-Prompt Engineering/assest/COT思维链，TOT思维树，GOT思维图，这些都是什么？.md>)
 
 ## 第七章-Agent
 
 **[⬆ 一键返回目录](#目录)**
 
-[开发大模型or使用大模型](7-第七章-Agent/开发大模型or使用大模型.md)
+[开发大模型or使用大模型](07-第七章-Agent/开发大模型or使用大模型.md)
 
-[Agent设计范式与常见框架](7-第七章-Agent/Agent设计范式与常见框架.md)
+[Agent设计范式与常见框架](07-第七章-Agent/Agent设计范式与常见框架.md)
 
-[langchain向左coze向右](7-第七章-Agent/langchain向左coze向右.md)
+[langchain向左coze向右](07-第七章-Agent/langchain向左coze向右.md)
 
 ### RAG
 
-[向量数据库拥抱大模型](7-第七章-Agent/向量数据库拥抱大模型.md)
+[向量数据库拥抱大模型](07-第七章-Agent/向量数据库拥抱大模型.md)
 
-[搭配Knowledge-Graph的RAG架构](<7-第七章-Agent/搭配Knowledge Graph的RAG架构.md>)
+[搭配Knowledge-Graph的RAG架构](<07-第七章-Agent/搭配Knowledge Graph的RAG架构.md>)
 
 ## 第八章-大模型企业落地
 
 **[⬆ 一键返回目录](#目录)**
 
-[CRUD-ETL工程师的末日从NL2SQL到ChatBI](8-第八章-大模型企业落地/CRUDETL工程师的末日从NL2SQL到ChatBI.md)
+[CRUD-ETL工程师的末日从NL2SQL到ChatBI](08-第八章-大模型企业落地/CRUDETL工程师的末日从NL2SQL到ChatBI.md)
 
-[大模型落地难点之幻觉](8-第八章-大模型企业落地/大模型落地难点之幻觉.md)
+[大模型落地难点之幻觉](08-第八章-大模型企业落地/大模型落地难点之幻觉.md)
 
-[大模型落地难点之输出的不确定性](8-第八章-大模型企业落地/大模型落地难点之输出的不确定性.md)
+[大模型落地难点之输出的不确定性](08-第八章-大模型企业落地/大模型落地难点之输出的不确定性.md)
 
-[大模型落地难点之结构化输出](8-第八章-大模型企业落地/大模型落地难点之结构化输出.md)
+[大模型落地难点之结构化输出](08-第八章-大模型企业落地/大模型落地难点之结构化输出.md)
 
 ## 第九章-大模型评估指标
 
-[大模型有哪些评估指标？](9-第九章-评估指标/大模型有哪些评估指标？.md)
+[大模型有哪些评估指标？](09-第九章-评估指标/大模型有哪些评估指标？.md)
 
 ## 第十章-热点
 
