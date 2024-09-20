@@ -13,8 +13,6 @@ https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-o
 
 阅读提示：文中使用的数据集包含敏感主题，译者只做翻译，译文不代表译者立场。
 
-
-
 ## 正文开始：
 
 LLM 面临的最大挑战（也是最大的机遇）或许是将其强大的能力扩展到解决训练数据之外的问题，并使用 LLM 从未见过的数据获得可比的结果。这为数据调查开辟了新的可能性，例如根据上下文和数据集识别主题和语义概念。在本文中，我们介绍了微软研究院创建的 GraphRAG，这是增强 LLM 能力的一项重大进步。
@@ -36,8 +34,6 @@ LLM 面临的最大挑战（也是最大的机遇）或许是将其强大的能�
 
 Query: “What is Novorossiya?” 此部分不做翻译
 
-> <ol><li></li><ol>
-
 |Baseline RAG|GraphRAG|
 | :--- |:--- |
 |The term “Novorossiya” is not mentioned in the provided context. However, to provide some information, Novorossiya, or New Russia, is a historical term referring to a region in the south of Ukraine that was conquered by the Russian Empire in the 18th century. In recent years, the term has been revived by Russian-backed separatists in Eastern Ukraine to refer to the territories they claim, but it is not officially recognized as a separate entity by international bodies. |<ol><li>Novorossiya, also known as New Russia, is a term with historical and contemporary significance. Historically, it referred to a region in the southern part of the Russian Empire that is now part of Ukraine. In the contemporary context, it has been used by pro-Russian separatists to refer to certain areas of Ukraine [Data: Entities (6494, 912, 6493)].</li><li>The term Novorossiya has been used in the context of a political movement in Ukraine, particularly by Russian nationalists. This movement has been associated with efforts to destabilize Ukraine and create a so-called “Novorossiya” [Data: Entities (912); Relationships (15211, 15206)]. The term has also been used to denote a separatist state in Ukraine, known as the Federal Republic of Novorossiya (FRN) [Data: Entities (7690)].  </li><ol>|
@@ -52,11 +48,11 @@ Query: “What has Novorossiya done?”
 
 基线 RAG 无法回答这个问题。查看插入上下文窗口的源文档（见下图），没有任何文本片段讨‘Novorossiya’，导致此问题。
 
->0
+![alt text](<assest/GraphRAG 解锁大模型对叙述性私人数据的检索能力（中文翻译）/0.png>)
 
 相比之下，GraphRAG 方法在查询 Novorossiya 中发现了一个实体。这使得 LLM 能够在图中立足，并通过指向原始支持文本的链接得出包含出处的更优答案。例如，下图 2 显示了 LLM 用于 LLM 生成的声明“Novorossiya has been implicated in plans to blow up ATMs”的确切内容。我们看到了原始源文档（经过英文翻译）中的片段，LLM 使用该片段通过图中两个实体之间存在的关系来支持这一断言。
 
->1
+![alt text](<assest/GraphRAG 解锁大模型对叙述性私人数据的检索能力（中文翻译）/1.png>)
 
 通过使用 LLM 生成的知识图谱，GraphRAG 极大地改进了 RAG 的“检索”部分，用更高相关性的内容填充上下文窗口，从而得到更好的答案并捕获证据来源。
 
@@ -90,7 +86,7 @@ Query: “What are the top 5 themes in the data?“
 - 然后使用此图谱创建自下而上的聚类，将数据分层组织成语义聚类（下图中用不同颜色表示）。这种分区允许预先总结语义概念和主题，这有助于全面理解数据集。
 - 在查询时，这两种结构都用于在回答问题时为 LLM 上下文窗口提供材料。
 
->2
+![alt text](<assest/GraphRAG 解锁大模型对叙述性私人数据的检索能力（中文翻译）/2.jpg>)
 
 上图显示了该Graph的一个可视化示例。每个圆圈代表一个实体（例如，一个人、一个地方或一个组织），实体大小代表该实体拥有的关系数量，颜色代表相似实体的分组。颜色分区是一种建立在图形结构之上的自下而上的聚类方法，它使我们能够回答不同抽象层次的问题。
 
@@ -119,5 +115,3 @@ Query: “What are the top 5 themes in the data?“
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
 仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
-
-
