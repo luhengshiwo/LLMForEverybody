@@ -44,6 +44,8 @@
 
 **[⬆ 一键返回目录](#目录)** 
 
+[10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm](01-第一章-预训练/10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm.md)
+
 ### Attention机制
 
 [看懂FlashAttention需要的数学储备是？高考数学最后一道大题](01-第一章-预训练/看懂FlashAttention需要的数学储备是？高考数学最后一道大题！.md)
@@ -51,6 +53,7 @@
 [FlashAttention v2相比于v1有哪些更新？](<01-第一章-预训练/FlashAttention v2相比于v1有哪些更新？.md>)
 
 [为什么会发展出Multi Query Attention和Group Query Attention](<01-第一章-预训练/为什么会发展出Multi Query Attention和Group Query Attention.md>)
+
 
 ### 位置编码
 
@@ -123,6 +126,8 @@
 [向量数据库拥抱大模型](07-第七章-Agent/向量数据库拥抱大模型.md)
 
 [搭配Knowledge-Graph的RAG架构](<07-第七章-Agent/搭配Knowledge Graph的RAG架构.md>)
+
+[GraphRAG：解锁大模型对叙述性私人数据的检索能力（中文翻译）](<07-第七章-Agent/GraphRAG 解锁大模型对叙述性私人数据的检索能力（中文翻译）.md>)
 
 ## 第八章-大模型企业落地
 
