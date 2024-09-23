@@ -6,7 +6,6 @@
 ## 1. Momentum算法的提出
 动量（Momentum）方法最初由B.T.Polyak在1964年提出。这一方法被用来加速梯度下降算法的收敛，特别是在处理具有较大条件数的优化问题时。B.T.Polyak在论文《Some methods of speeding up the convergence of iteration methods》[1]中描述了这一方法，这篇论文发表在了《USSR Computational Mathematics and Mathematical Physics》上。动量方法通过在每一步的更新中加入一部分上一步的速度，帮助算法在相关方向上加速，并减少在目标函数的平坦区域中的震荡。这种方法后来被广泛应用于机器学习领域，尤其是在深度学习中，成为了优化算法中的一个重要组成部分。
 
-
 ## 2. 指数加权平均
 
 在介绍Momentum算法之前，我们先来了解一下指数加权平均（Exponential Weighted Average）的概念。
@@ -84,6 +83,12 @@ $$lim_{{x\to 0}}{(1-x)^{\frac{1}{x}}} = \frac{1}{e}$$
 
 这边，当 $x= 1- \beta $ 时，${\beta^{\frac{1}{1-\beta}}} = \frac{1}{e}$
 
+
+## 5. Momentum算法为什么要叫“动量”？
+
+动量算法的命名灵感来源于物理学中的动量概念，它通过在参数更新中加入过去迭代的梯度信息，模拟了物体运动时动量的效果，使得算法在优化过程中能够保持一定的“惯性”，从而在面对目标函数的曲率变化或噪声时，能够更加平滑地调整搜索方向和步长。
+
+在物理学中，动量是物体运动状态的量度，它与物体的质量和速度有关。类似地，动量算法在机器学习中的作用可以类比为在优化过程中增加了一种“惯性”，使得算法在迭代过程中能够根据之前的梯度信息调整当前的更新方向和步长，从而在目标函数的曲面上更加平滑地滚动，避免在局部最小值或平坦区域停滞不前。
 
 ## 参考
 [1] [Some methods of speeding up the convergence of iteration methods](https://www.sciencedirect.com/science/article/abs/pii/0041555364901375)
