@@ -75,10 +75,10 @@ PReLU（Parametric Rectified Linear Unit，参数化修正线性单元）是ReLU
 
 PReLU的数学表达式为：
 
-$\text{PReLU}(x) = \begin{cases} 
+$$\text{PReLU}(x) = \begin{cases} 
 x & \text{if } x \geq 0 \\
 \alpha x & \text{if } x < 0 
-\end{cases}$
+\end{cases}$$
 
 其中，$\alpha$ 是一个可学习的参数，而不是一个固定的常数。
 
