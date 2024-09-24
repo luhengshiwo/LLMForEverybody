@@ -12,10 +12,10 @@ ELU通过在负区间引入指数函数来改进ReLU及其变体的性能。ELU�
 
 ELU的数学表达式为：
 
-$$ \text{ELU}(x) = \begin{cases} 
+$$\text{ELU}(x) = \begin{cases} 
 x & \text{if } x \geq 0 \\
 \alpha (e^x - 1) & \text{if } x < 0 
-\end{cases} $$
+\end{cases}$$
 
 其中，$\alpha$ 是一个超参数，通常取值为1。
 
@@ -44,10 +44,10 @@ SELU（Scaled Exponential Linear Unit，缩放指数线性单元）激活函数�
 
 SELU的数学表达式为：
 
-$$ \text{SELU}(x) = \lambda \begin{cases} 
+$$\text{SELU}(x) = \lambda \begin{cases} 
 x & \text{if } x \geq 0 \\
 \alpha (e^x - 1) & \text{if } x < 0 
-\end{cases} $$
+\end{cases}$$
 
 其中，$\alpha$ 和 $\lambda$ 是两个固定的参数，通常取值为：
 - $\alpha \approx 1.67326$

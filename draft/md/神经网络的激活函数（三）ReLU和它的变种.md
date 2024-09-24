@@ -10,7 +10,7 @@
 
 ReLU（Rectified Linear Unit，修正线性单元）激活函数是现代深度学习中最常用的激活函数之一。它的数学表达式为：
 
-$$ \text{ReLU}(x) = \max(0, x) $$
+$$\text{ReLU}(x) = \max(0, x)$$
 
 ### 1.2 关键性质
 
@@ -45,10 +45,10 @@ Leaky ReLU（Leaky Rectified Linear Unit，带泄漏的修正线性单元）是R
 
 Leaky ReLU的数学表达式为：
 
-$$ \text{Leaky ReLU}(x) = \begin{cases} 
+$$\text{Leaky ReLU}(x) = \begin{cases} 
 x & \text{if } x \geq 0 \\
 \alpha x & \text{if } x < 0 
-\end{cases} $$
+\end{cases}$$
 
 其中，$\alpha$ 是一个小的正数，通常取值在0.01左右。
 
@@ -75,10 +75,10 @@ PReLU（Parametric Rectified Linear Unit，参数化修正线性单元）是ReLU
 
 PReLU的数学表达式为：
 
-$ \text{PReLU}(x) = \begin{cases} 
+$\text{PReLU}(x) = \begin{cases} 
 x & \text{if } x \geq 0 \\
 \alpha x & \text{if } x < 0 
-\end{cases} $
+\end{cases}$
 
 其中，$\alpha$ 是一个可学习的参数，而不是一个固定的常数。
 
