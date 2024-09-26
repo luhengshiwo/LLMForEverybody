@@ -46,6 +46,8 @@
 
 [10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm](01-第一章-预训练/10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm.md)
 
+[混合专家模型 (MoE) 详解（节选）](<01-第一章-预训练/混合专家模型 (MoE) 详解（节选）.md>)
+
 ### Attention机制
 
 [看懂FlashAttention需要的数学储备是？高考数学最后一道大题](01-第一章-预训练/看懂FlashAttention需要的数学储备是？高考数学最后一道大题！.md)
@@ -158,3 +160,5 @@
 [我是怎么通过2022下半年软考高级：系统架构设计师考试的](10-第十章-热点/我是怎么通过2022下半年软考高级：系统架构设计师考试的.md)
 
 [用Exploit and Explore解决不知道吃什么的选择困难症](<10-第十章-热点/用Exploit and Explore解决不知道吃什么的选择困难症.md>)
+
+[最简单的方式理解Mamba（中文翻译）](10-第十章-热点/最简单的方式理解Mamba（中文翻译）.md)
