@@ -15,6 +15,8 @@
 
 - 🐳[序-AGI之路](#序-AGI之路)
 - 🐱[第一章-大模型之Pre-Training](#第一章-大模型之Pre-Training)
+  - 🐹[Optimizer](#Optimizer)
+  - 🐰[激活函数](#激活函数)
   - 🐭[Attention](#Attention机制)
   - 🐯[位置编码](#位置编码)
 - 🐶[第二章-大模型之部署与推理](#第二章-大模型之部署与推理)
@@ -47,6 +49,16 @@
 [10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm](01-第一章-预训练/10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm.md)
 
 [混合专家模型 (MoE) 详解（节选）](<01-第一章-预训练/混合专家模型 (MoE) 详解（节选）.md>)
+
+### Optimizer
+
+[神经网络的优化器（一）概述](01-第一章-预训练/神经网络的优化器（一）概述.md)
+
+[神经网络的优化器（二）SGD](01-第一章-预训练/神经网络的优化器（二）SGD.md)
+
+### 激活函数
+
+[为什么大型语言模型都在使用 SwiGLU 作为激活函数？](<01-第一章-预训练/为什么大型语言模型都在使用 SwiGLU 作为激活函数？.md>)
 
 ### Attention机制
 
@@ -162,3 +174,6 @@
 [用Exploit and Explore解决不知道吃什么的选择困难症](<10-第十章-热点/用Exploit and Explore解决不知道吃什么的选择困难症.md>)
 
 [最简单的方式理解Mamba（中文翻译）](10-第十章-热点/最简单的方式理解Mamba（中文翻译）.md)
+
+[10分钟了解什么是多模态大模型（Multimodal LLMs）](<10-第十章-热点/10分钟了解什么是多模态大模型（Multimodal LLMs）.md>)
+
