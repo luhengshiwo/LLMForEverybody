@@ -1,11 +1,11 @@
-神经网络的优化器（二）SGD
+每天3分钟，彻底弄懂神经网络的优化器（二）SGD
 
 ## 1. SGD
 随机梯度下降（Stochastic Gradient Descent，SGD）是一种用于优化可微分目标函数的迭代方法，它是梯度下降优化的随机近似。SGD的提出可以追溯到1951年，由Herbert Robbins和Sutton Monro在他们的论文《A Stochastic Approximation Method》[1]中首次描述了随机近似方法，这可以看作是SGD的前身。随后，J. Kiefer和J. Wolfowitz在1952年发表了论文《Stochastic Estimation of the Maximum of a Regression Function》[2]，这篇论文更接近于机器学习领域中SGD的现代理解。
 
 随机梯度下降（SGD）的更新公式是梯度下降法的一种变体，它用于优化目标函数，特别是在处理大规模数据集时。SGD 在每次迭代中只使用一个或一小批样本来计算梯度，然后更新模型参数。这样做可以减少每次迭代的计算成本，并有助于算法逃离局部最小值。
 
-- 00
+![alt text](assest/神经网络的优化器（二）SGD/00.png)
 
 SGD 的参数更新公式如下：
 
@@ -25,7 +25,7 @@ $$\theta_{t+1} = \theta_t - \eta_t \nabla J(\theta_t; x^{(i)}, y^{(i)})$$
 
 **鞍点**
 
-- 0
+![alt text](assest/神经网络的优化器（二）SGD/0.png)
 
 在优化和机器学习领域，鞍点（Saddle Point）是指目标函数的临界点，在这个点上，某些方向的导数为正（上升），而另一些方向的导数为负（下降）。换句话说，鞍点既不是局部最小值也不是局部最大值，而是局部最小值和局部最大值的某种组合。
 
@@ -39,6 +39,7 @@ $$\theta_{t+1} = \theta_t - \eta_t \nabla J(\theta_t; x^{(i)}, y^{(i)})$$
 
 在机器学习中，尤其是在深度学习中，鞍点的存在可能会使基于梯度的优化算法（如梯度下降）遇到难题，因为梯度下降算法可能会在接近鞍点时停滞不前，因为梯度在该点为零，算法无法判断下一步应该向哪个方向移动。
 
+![alt text](assest/神经网络的优化器（二）SGD/01.png)
 
 ## 参考
 
