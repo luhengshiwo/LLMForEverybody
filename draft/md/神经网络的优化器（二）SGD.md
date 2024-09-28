@@ -1,4 +1,4 @@
-神经网络的优化器（二）SGD
+每天3分钟，彻底弄懂神经网络的优化器（二）SGD
 
 ## 1. SGD
 随机梯度下降（Stochastic Gradient Descent，SGD）是一种用于优化可微分目标函数的迭代方法，它是梯度下降优化的随机近似。SGD的提出可以追溯到1951年，由Herbert Robbins和Sutton Monro在他们的论文《A Stochastic Approximation Method》[1]中首次描述了随机近似方法，这可以看作是SGD的前身。随后，J. Kiefer和J. Wolfowitz在1952年发表了论文《Stochastic Estimation of the Maximum of a Regression Function》[2]，这篇论文更接近于机器学习领域中SGD的现代理解。
@@ -38,6 +38,8 @@ $$\theta_{t+1} = \theta_t - \eta_t \nabla J(\theta_t; x^{(i)}, y^{(i)})$$
 在二维空间中，可以将鞍点想象成马鞍的形状，从马鞍的一侧走到顶部再走到另一侧，你会先经历一个上升过程（局部最小值的特征），然后是一个下降过程（局部最大值的特征）。
 
 在机器学习中，尤其是在深度学习中，鞍点的存在可能会使基于梯度的优化算法（如梯度下降）遇到难题，因为梯度下降算法可能会在接近鞍点时停滞不前，因为梯度在该点为零，算法无法判断下一步应该向哪个方向移动。
+
+
 
 
 ## 参考
