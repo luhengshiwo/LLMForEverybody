@@ -5,24 +5,24 @@ AdaGrad（Adaptive Gradient Algorithm）是由 John Duchi, Elad Hazan, 和 Yoram
 
 ## 2. AdaGrad算法的原理
 
-1. **初始化**：为每个参数 $ \theta_i $ 初始化梯度平方和 $ \sum g_i^2 = 0 $。
+1. **初始化**：为每个参数 $ \theta_i $ 初始化梯度平方和 $\sum g_i^2 = 0$。
 
-2. **梯度计算**：在每次迭代中，计算参数 $ \theta_i $ 的梯度 $ g_i $。
+2. **梯度计算**：在每次迭代中，计算参数 $\theta_i$ 的梯度 $g_i$。
 
 3. **更新梯度平方和**：
-   $ \sum g_i^2 = \sum g_i^2 + g_i^2 $
+   $\sum g_i^2 = \sum g_i^2 + g_i^2$
 
 4. **计算自适应学习率**：
-   $ \eta_i = \frac{\eta}{\sqrt{\sum g_i^2} + \epsilon} $
-   其中 $ \eta $ 是全局学习率，$ \epsilon $ 是一个很小的数（如 $ 1e-8 $），用于防止分母为零。
+   $\eta_i = \frac{\eta}{\sqrt{\sum g_i^2} + \epsilon}$
+   其中 $\eta$ 是全局学习率，$ \epsilon $ 是一个很小的数（如 $1e-8$），用于防止分母为零。
 
 5. **参数更新**：
-   $ \theta_i = \theta_i - \eta_i \cdot g_i $
+   $\theta_i = \theta_i - \eta_i \cdot g_i$
 
 ### 参数：
 
-- **$ \eta $**：全局学习率，控制初始的学习速度。
-- **$ \epsilon $**：用于数值稳定性的小常数，防止分母为零。
+- **$\eta$**：全局学习率，控制初始的学习速度。
+- **$\epsilon$**：用于数值稳定性的小常数，防止分母为零。
 
 
 Adagrad（Adaptive Gradient Algorithm）是一种用于优化大规模机器学习算法的梯度下降算法。它通过为每个参数自适应地调整学习率来解决标准梯度下降算法中的一些限制，特别是在处理稀疏数据时。

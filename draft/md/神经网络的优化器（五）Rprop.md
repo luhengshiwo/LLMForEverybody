@@ -8,21 +8,21 @@ Rprop（Resilient 弹性 Backpropagation）算法是由Martin Riedmiller和Herma
 1. **初始化**：为每个权重 $w_i$ 初始化学习率 $\eta_i$ 和变化量 $\Delta_i$，通常 $\Delta_i$ 的初始值设为一个小的正数。
 
 2. **更新规则**：
-   - 如果 $ g_t $（当前梯度）和 $ g_{t-1} $（上一时刻的梯度）同号，则增加学习率：
-     $ \Delta_i = \min(\Delta_{\text{max}}, \eta_i + \Delta_i) $
+   - 如果 $g_t$（当前梯度）和 $ g_{t-1} $（上一时刻的梯度）同号，则增加学习率：
+     $\Delta_i = \min(\Delta_{\text{max}}, \eta_i + \Delta_i)$
    - 如果 $ g_t $ 和 $ g_{t-1} $ 异号或 $ g_t $ 为零，则减少学习率：
-     $ \Delta_i = \max(\Delta_{\text{min}}, \eta_i - \Delta_i) $
+     $\Delta_i = \max(\Delta_{\text{min}}, \eta_i - \Delta_i)$
    - 如果 $ g_t $ 和 $ g_{t-1} $ 都为零，则重置学习率：
-     $ \Delta_i = \Delta_{\text{init}} $
+     $\Delta_i = \Delta_{\text{init}}$
 
 3. **权重更新**：
-   $ w_i = w_i - \Delta_i \cdot \text{sign}(g_t) $
-   其中 $ g_t $ 是当前梯度，$ \text{sign}(g_t) $ 是梯度的符号函数。
+   $w_i = w_i - \Delta_i \cdot \text{sign}(g_t)$
+   其中 $g_t$ 是当前梯度，$\text{sign}(g_t)$ 是梯度的符号函数。
 
 ### 参数：
-- $ \Delta_{\text{max}} $：最大变化量，防止步长过大；
-- $ \Delta_{\text{min}} $：最小变化量，防止步长过小；
-- $ \Delta_{\text{init}} $：初始变化量；
+- $\Delta_{\text{max}}$：最大变化量，防止步长过大；
+- $\Delta_{\text{min}}$：最小变化量，防止步长过小；
+- $\Delta_{\text{init}}$：初始变化量；
 
 Rprop算法通过这种方式，能够自适应地调整每个权重的学习率，从而在训练过程中更加灵活和有效。它特别适合于那些需要精细调整学习率以避免陷入局部最小值的问题。
 
