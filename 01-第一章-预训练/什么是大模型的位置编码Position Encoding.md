@@ -119,17 +119,15 @@ $Re$指的是复数的实数部分，更近一步，我们可以将函数$f$定�
 
 在二维场景下，我们引入了复平面，是为了使用欧拉公式获取漂亮的数学特性，来简化过程。但是在多维场景下，我们可以直接使用矩阵的特性，来简化过程。将2维的RoPE推广到多维的RoPE，只需要将2维的RoPE的旋转矩阵$R$替换为多维的旋转矩阵$R$即可。
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/7.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/7.png>)
 
 因为内积满足线性叠加性质，所以任意***偶数维***的RoPE都可以表示为二维情形拼接而成的形式。
-
-![alt text](<assest/什么是大模型的位置编码Position Encoding/8.PNG>)
 
 即是在原来的$q*k$矩阵的基础上，加上了一个旋转矩阵$R^d_{\theta,m}$，这就是RoPE的设计思路。
 
 在原始paper中，有一个直观的图
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/9.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/2.png>)
 
 ## 10.总结
 旋转位置编码由**苏剑林**大神设计，其引入数学中最美丽的公式-欧拉公式。
