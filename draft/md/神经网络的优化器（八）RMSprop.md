@@ -1,4 +1,4 @@
-神经网络的优化器（八）RMSprop
+每天3分钟，彻底弄懂神经网络的优化器（八）RMSprop
 
 ## 1. RMSprop算法的提出
 RMSProp（Root Mean Square Propagation）算法由 Geoffrey Hinton 在他的 Coursera 课程《Neural Networks for Machine Learning》[1](#refer-anchor-1)中提出，该课程首次发布于2012年。RMSProp 算法是一种自适应学习率的优化方法，它通过使用梯度的平方的指数移动平均值来调整每个参数的学习率，从而加快学习速度并减少训练过程中的震荡。这种方法特别适合处理非凸优化问题，并且在深度学习中得到了广泛的应用。

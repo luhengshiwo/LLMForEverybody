@@ -1,4 +1,4 @@
-神经网络的优化器（十一）AdamW
+每天3分钟，彻底弄懂神经网络的优化器（十一）AdamW
 
 ## 1. AdamW算法的提出
 AdamW算法是由Ilya Loshchilov和Frank Hutter提出的。这一算法的详细描述和原理可以在论文《Decoupled Weight Decay Regularization》[1](#refer-anchor-1)中找到，该论文发表于2017年。在论文中，作者指出了传统Adam算法在权重衰减（weight decay）方面的一些问题，并提出了AdamW作为解决方案。AdamW通过将权重衰减从梯度更新中解耦，从而在每次迭代中更有效地应用权重衰减。这种方法在实践中被证明可以提高模型的收敛速度和泛化能力。

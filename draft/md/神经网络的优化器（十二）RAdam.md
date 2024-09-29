@@ -1,4 +1,4 @@
-神经网络的优化器（十二）RAdam
+每天3分钟，彻底弄懂神经网络的优化器（十二）RAdam
 
 ## 1. RAdam算法的提出
 RAdam（Rectified 修正 Adam）是由Liyuan Liu et al. 提出的。这一算法的详细描述和原理可以在论文《On the Variance of the Adaptive Learning Rate and Beyond》[1](#refer-anchor-1)中找到，该论文首次发表于2019年，并在2020年的ICLR会议上发表。论文中提出了RAdam算法，通过引入一个修正项来解决自适应学习率在模型训练早期阶段过大的方差问题，从而改善了优化过程的稳定性和鲁棒性。

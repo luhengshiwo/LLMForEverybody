@@ -1,4 +1,4 @@
-神经网络的优化器（七）AdaDelta
+每天3分钟，彻底弄懂神经网络的优化器（七）AdaDelta
 
 ## 1. AdaDelta算法的提出
 AdaDelta算法是由Matthew D. Zeiler在2012年提出的。这一算法的详细描述和原理可以在论文《ADADELTA: An Adaptive Learning Rate Method》[1](#refer-anchor-7)中找到。AdaDelta算法旨在解决AdaGrad算法中学习率单调递减的问题，通过限制累积梯度的窗口大小来调整学习率，使得算法在训练过程中能够自适应地调整每个参数的学习率，而不需要手动设置。这种方法对噪声梯度信息、不同的模型结构、各种数据模式以及超参数选择都表现出了较强的鲁棒性。

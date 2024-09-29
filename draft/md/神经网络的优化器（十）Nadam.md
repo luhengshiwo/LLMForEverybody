@@ -1,4 +1,4 @@
-神经网络的优化器（十）Nadam
+每天3分钟，彻底弄懂神经网络的优化器（十）Nadam
 
 ## 1. Nadam算法的提出
 Nadam（Nesterov-accelerated Adaptive Moment Estimation）算法是由Tim Salimans et al. 在2016年提出的。这一算法结合了Adam算法和Nesterov Accelerated Gradient（NAG）算法的优点，旨在提高优化算法的性能。Nadam算法的详细描述和原理可以在论文《Incorporating Nesterov Momentum into Adam》[1](#refer-anchor-1)中找到，该论文最初在2016年提交到arXiv，并且后来在2017年的ICLR会议上发表。
