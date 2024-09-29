@@ -15,6 +15,7 @@
 
 - 🐳[序-AGI之路](#序-AGI之路)
 - 🐱[第一章-大模型之Pre-Training](#第一章-大模型之Pre-Training)
+  - 🐼[架构](#架构)
   - 🐹[Optimizer](#Optimizer)
   - 🐰[激活函数](#激活函数)
   - 🐭[Attention](#Attention机制)
@@ -46,9 +47,15 @@
 
 **[⬆ 一键返回目录](#目录)** 
 
+### 架构
+
 [10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm](01-第一章-预训练/10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm.md)
 
 [混合专家模型 (MoE) 详解（节选）](<01-第一章-预训练/混合专家模型 (MoE) 详解（节选）.md>)
+
+[最简单的方式理解Mamba（中文翻译）](01-第一章-预训练/最简单的方式理解Mamba（中文翻译）.md)
+
+[10分钟了解什么是多模态大模型（Multimodal LLMs）](<01-第一章-预训练/10分钟了解什么是多模态大模型（Multimodal LLMs）.md>)
 
 ### Optimizer
 
@@ -57,6 +64,8 @@
 [神经网络的优化器（二）SGD](01-第一章-预训练/神经网络的优化器（二）SGD.md)
 
 [神经网络的优化器（三）Momentum](01-第一章-预训练/神经网络的优化器（三）Momentum.md)
+
+[神经网络的优化器（四）ASGD](01-第一章-预训练/神经网络的优化器（四）ASGD.md)
 
 ### 激活函数
 
@@ -69,7 +78,6 @@
 [FlashAttention v2相比于v1有哪些更新？](<01-第一章-预训练/FlashAttention v2相比于v1有哪些更新？.md>)
 
 [为什么会发展出Multi Query Attention和Group Query Attention](<01-第一章-预训练/为什么会发展出Multi Query Attention和Group Query Attention.md>)
-
 
 ### 位置编码
 
@@ -177,7 +185,5 @@
 
 [用Exploit and Explore解决不知道吃什么的选择困难症](<10-第十章-热点/用Exploit and Explore解决不知道吃什么的选择困难症.md>)
 
-[最简单的方式理解Mamba（中文翻译）](10-第十章-热点/最简单的方式理解Mamba（中文翻译）.md)
 
-[10分钟了解什么是多模态大模型（Multimodal LLMs）](<10-第十章-热点/10分钟了解什么是多模态大模型（Multimodal LLMs）.md>)
 
