@@ -15,24 +15,24 @@
 
 **现象级产品**
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/1.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/1.PNG>)
 
 **超简单的UI**
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/2.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/2.PNG>)
 
 ## 二，基本概念
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/3.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/3.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/4.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/4.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/5.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/5.png>)
 
 ### Prompt Engineering==如何有效沟通（人机）
 Prompt Engineering 是优化 prompts 以获得有效输出的艺术和科学。它涉及设计、编写和修改 prompts，以引导 AI 模型生成高质量、相关且有用的响应。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/6.PNG>) 
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/6.png>) 
 
 ### Prompt Engineering 的重要性
 Prompt Engineering 对于有效使用AI模型至关重要，因为它可以：
@@ -41,28 +41,28 @@ Prompt Engineering 对于有效使用AI模型至关重要，因为它可以：
 - 调整模型的输出以满足特定需求
 - 探索模型的全部潜力
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/7.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/7.png>)
 
 ### Prompts 的组成部分
 System message（Instruction）：定义LLM的角色
 Human message（Question）：每一次问询
 History message：历史记录
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/8.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/8.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/9.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/9.png>)
 
 ### 个性化设置
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/10.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/10.png>)
 
 #### Temperature
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/11.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/11.png>)
 
 #### Top-p
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/12.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/12.png>)
 
 #### 上下文的消息数量上限
 Memory/History
@@ -76,13 +76,13 @@ Memory/History
 
 #### 生成回答的最大Token数
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/13.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/13.png>)
 
 ##  三，Prompt Engineering 实践[<sup>1</sup>](#refer-anchor-1)
 
 ### 1.写下清晰的指示
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/19.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/19.jpg>)
 
 模型无法读懂你的想法。 
 如果你觉得输出太长，就要求简短答复。 觉得输出太简单，就要求专家级别的写作。 如果不喜欢这种格式，就演示希望看到的格式。 模型猜测你想要什么的次数越少，得到想要回答的可能性就越大。
@@ -94,13 +94,13 @@ PS：
 
 为了获得高度相关的回答，确保提供的是“重要且详细的信息”；不要让模型来猜测你的意思。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/20.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/20.png>)
 
 #### 1.2 要求模型采用某种角色 
 
 System message可用于指定模型在其回复中使用的角色。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/21.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/21.png>)
 
 #### 1.3 使用分隔符清楚地指示输入的不同部分 
 三引号、XML 标签、节标题等分隔符可以帮助划分要区别对待的段落。
@@ -111,13 +111,13 @@ System message可用于指定模型在其回复中使用的角色。
 
 **谷歌翻译**
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/22.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/22.png>)
 
 >结果：语言模型可以自信地发明假答案，特别是当被问及深奥的主题或引文和 URL 时。 就像一张笔记可以帮助学生在考试中取得更好的成绩一样，为这些模型提供参考文本可以帮助***减少作答次数***。
 
 ***LLM***
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/23.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/23.png>)
 
 >prompts: 将下述文本翻译成中文，要用专业术语，并符合中国人的阅读习惯，''' Language models can confidently invent fake answers, especially when asked about esoteric topics or for citations and URLs. In the same way that a sheet of notes can help a student do better on a test, providing reference text to these models can help in answering with fewer fabrications.'''
 
@@ -143,35 +143,35 @@ User：''' 上了八九年班了，也带了七八届研究生，博士生也带
 
 >翻译: Summary: The text describes various types of students the author has encountered over the years,          pointing out that students who are willing to seek help proactively tend to achieve good results.
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/24.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/24.png>)
 
 
 #### 1.5 提供示例 
 提供说明通常比通过示例更有效，但在某些情况下，提供示例可能更容易。例如，希望模型复制一种难以明确描述的特定风格来响应用户查询。这被称为“小样本”提示，Few-shot learning
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/25.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/25.png>)
 
 #### 1.6 指定所需的输出长度 
 要求模型生成具有给定目标长度的输出。 目标输出长度可以根据单词、句子、段落、要点等的计数来指定。
 
 - 大约
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/26.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/26.png>)
 
 - 不超过
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/27.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/27.png>)
 
 - 两句话
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/28.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/28.png>)
 
 ### 二，提供参考文字
 语言模型可以自信地编造虚假答案，尤其是在被问及深奥的主题或引用和网址时（大模型的幻觉问题）。就像一张小抄可以帮助学生在考试中取得更好的成绩一样，为这些模型提供参考文本有助于减少虚构的回答。
 #### 2.1 指示模型使用参考文本回答 
 Prompts-System：使用提供的由三重引号引起来的文章来回答问题。如果在文章中找不到答案，请写“我找不到答案”。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/29.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/29.png>)
 
 - case1
 >'''上了八九年班了，也带了七八届研究生，博士生也带毕业了三届了。
@@ -194,16 +194,16 @@ Prompts-System：使用提供的由三重引号引起来的文章来回答问题
 
 >Completion: 爱“哭”的、主动的找“奶”吃的研究生才会有发展。这种研究生不仅知道自己的需要和不足，而且能够主动寻求外部的指导和帮助，具有内驱力，能够驱使自己努力向前。他们会积极主动地通过各种途径补足知识，与导师沟通交流，不断探索和进取，从而提高工作效率，取得更好的成果。这样的研究生能够激发导师的兴趣和潜力，促进双方共同进步，取得更好的研究成果。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/30.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/30.png>)
 
 - case2
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/31.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/31.png>)
 
 ### 2.2 指示模型通过引用参考文本来回答
 Prompt-system: 使用提供的由三重引号引起来的文章来回答问题。如果在文章中找不到答案，请写“我找不到答案”。如果提供了问题的答案，则必须附有引文注释。 使用以下格式引用相关段落（{“引用”：…}）。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/32.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/32.png>)
 
 - case3
 
@@ -229,7 +229,7 @@ Prompt-system: 使用提供的由三重引号引起来的文章来回答问题�
 根据提供的文章内容，一个会有发展的研究生是那种爱“哭”的、主动的找“奶”吃的学生。这种学生会积极主动地寻找外部的指导和帮助，知道自己的需要和不足，并有内驱力来奋力向前。他们会与导师沟通，寻求指导，并努力补足自己的不足，以提高工作效率和取得更好的成果。总的来说，主动性和愿意寻求帮助的态度是一个研究生能够取得发展的关键因素。
 {“引用”：'''总结下来一句话，有好结果的，都是那种爱“哭”的、主动的找“奶”吃的学生。'''，'''如果学生积极主动地来找导师“哭诉”，导师高兴还来不及呢。相反，要是学生基本不来找导师，甚至导师主动来找他他也没啥可说的，甚至需要导师催着、逼着去探索，用不了几次，导师也心灰意冷了，带不动啊。'''，'''所以，不管是硕士还是博士，做个爱“哭”的研究生吧。'''}
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/33.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/33.png>)
 
 ### 三，将复杂的任务拆分为更简单的子任务 
 
@@ -237,21 +237,21 @@ Prompt-system: 使用提供的由三重引号引起来的文章来回答问题�
 
 [大模型基础应用框架 (ReACT\SFT\RAG) 创新及零售业务落地](https://www.infoq.cn/article/bixpxZtgIvpMGWWKlI77)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/34.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/34.png>)
 
 #### 3.1 使用意图分类来识别与用户查询最相关的指令
 对于需要大量独立指令集来处理不同情况的任务，首先对查询类型进行分类并使用该分类来确定需要哪些指令可能是有用的。
 产品，研发 Attention！！！：接下来你会看到两组不同的QA，我们最终会把它们组合成状态机。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/35.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/35.png>)
 
 根据客户查询的分类，可以向模型提供一组更具体的指令，以供其处理后续步骤。 例如，假设客户需要“故障排除”方面的帮助。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/36.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/36.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/37.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/37.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/38.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/38.png>)
 
 Attention! 请注意，模型已被指示发出特殊字符串来指示对话状态何时发生变化。 这使我们能够将我们的系统变成一个状态机，其中状态决定注入哪些指令。 
 思考：如果让你来设计一个智能客服产品，你该如何做？如果让你开发一个智能客服，你有什么想法吗？
@@ -268,7 +268,7 @@ Attention! 请注意，模型已被指示发出特殊字符串来指示对话状
 
 ### 四，给模型时间“思考” 
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/39.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/39.png>)
 
 如果要求将 13 乘以 19，你可能不会立马算出来，但给点时间还是可以的。 
 同样，模型在尝试立即回答而不是花时间找出答案时会犯更多推理错误。
@@ -276,7 +276,7 @@ Attention! 请注意，模型已被指示发出特殊字符串来指示对话状
 
 **下面我们来看一个辅导作业的案例**
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/40.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/40.png>)
 
 #### 4.1指示模型在急于得出结论之前找出自己的解决方案
 有时，当我们明确指示模型在得出结论之前要从第一性原理进行推理时，我们会得到更好的结果。
@@ -285,13 +285,13 @@ Attention! 请注意，模型已被指示发出特殊字符串来指示对话状
 
 ***错误的案例***
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/41.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/41.png>)
 
 ***正确的案例***
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/42.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/42.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/43.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/43.png>)
 
 #### 4.2使用内心独白或一系列查询来隐藏模型的推理过程
 前面的策略表明，模型有时在回答特定问题之前详细推理问题很重要。 
@@ -300,9 +300,9 @@ Attention! 请注意，模型已被指示发出特殊字符串来指示对话状
 内心独白是一种可以用来缓解这种情况的策略。
 内心独白的想法是指示模型将原本对用户隐藏的部分输出放入结构化格式中，以便于解析它们。 然后，在向用户呈现输出之前，将解析输出并且仅使部分输出可见。
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/44.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/44.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/45.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/45.png>)
 
 #### 4.3询问模型是否错过了之前的任何内容
 假设我们正在使用一个模型来列出与特定问题相关的来源的摘录。 列出每个摘录后，模型需要确定是否应该开始编写另一个摘录或者是否应该停止。 如果源文档很大，模型通常会过早停止并且无法列出所有相关摘录。 在这种情-况下，通过使用后续查询提示模型查找之前传递中错过的任何摘录，通常可以获得更好的性能。
@@ -328,35 +328,35 @@ Combining reasoning and action in LLMs
 
 - Question
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/46.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/46.png>)
 
 - Thought
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/47.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/47.png>)
 
 - Action
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/48.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/48.png>)
 
 - Observation
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/49.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/49.png>)
 
 - Again
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/50.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/50.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/51.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/51.png>)
 
 ***如何进行ReAct？ Prompts！***
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/52.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/52.png>)
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/53.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/53.png>)
 
 ## Demo：Talk is Cheap，Show Me the Code：
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/54.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/54.png>)
 
 给出了使用工具并进行ReAct的小demo
 
@@ -367,11 +367,11 @@ Combining reasoning and action in LLMs
 
 **Before：**
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/55.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/55.png>)
 
 **After：**
 
-![alt text](<万字长文 Prompt Engineering-解锁大模型的力量/56.PNG>)
+![alt text](<assest/万字长文 Prompt Engineering-解锁大模型的力量/56.png>)
 
 ## 参考
 

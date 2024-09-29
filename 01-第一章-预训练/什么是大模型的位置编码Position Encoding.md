@@ -55,7 +55,7 @@ $$
 
 ## 5.绝对位置编码FAQ
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/02.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/02.png>)
 
 ### Q1:为什么是三角函数?
 A1:正弦和余弦函数是周期性函数，可以捕捉序列中元素之间的相对位置信息。这种函数的周期性特征使得模型能够更好地理解序列中元素的位置关系，从而提高模型的性能和准确性。
@@ -69,7 +69,7 @@ A3:正弦和余弦函数交替使用是为了使位置编码具有不同的周�
 ## 6. 相对位置编码
 相对位置编码不是为序列中的每个位置分配一个固定的位置向量，而是在计算注意力权重时考虑了元素之间的相对位置关系。
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/3.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/3.png>)
 
 相对位置编码的关键特点包括：
 - 相对位置敏感性：编码方式允许模型在计算注意力分数时，不仅考虑元素之间的相互作用，还考虑它们之间的相对位置。
@@ -82,7 +82,7 @@ A3:正弦和余弦函数交替使用是为了使位置编码具有不同的周�
 ## 7.外推性
 位置编码的外推性是指模型在处理推理阶段比训练阶段更长的序列时，如何有效地扩展其位置编码以保持性能。
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/04.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/04.png>)
 
 在大模型中，由于显存资源的限制，通常在预训练时设计的最大序列长度有限，例如4k左右，但推理时可能需要处理更长的序列，如32K的文本。因此，设计合适的位置编码对于提升模型在更长序列上的外推性至关重要。
 
@@ -92,44 +92,42 @@ A3:正弦和余弦函数交替使用是为了使位置编码具有不同的周�
 
 RoPE提出为了能利用上 token 之间的相对位置信息，假定 query 向量$q_m$  和 key 向量  $k_n$之间的内积操作可以被一个函数$g$表示，该函数 $g$ 的输入是词嵌入向量$x_m$，$x_n$ 和它们之间的相对位置$m-n$：
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/2.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/2.png>)
 
 大胆假设，小心求证。 现在我们的目标就是找到一个合适的函数$g$，使得$g(x_m, x_n, m-n)$能够捕捉到词向量之间的相对位置信息。
 
 RoPE提出，在词向量是二维的情况下，将平面转化为复平面，如果我们按照如下的方式定义函数$f$，则可以找到对应的$g$
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/3.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/3.png>)
 
 $Re$指的是复数的实数部分，更近一步，我们可以将函数$f$定义为：
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/4.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/4.png>)
 
 这边，不就是原来的query矩阵乘上了一个旋转矩阵吗？也就是说，加上$m$这个位置信息后，如果使用RoPE的设计方案，就相当于将原query矩阵进行了旋转。这就是**旋转**的由来。
 
 同理，$f_K$可以表示为：
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/5.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/5.png>)
 
 那么，对应的$g$函数就是：
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/6.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/6.png>)
 
 
 ## 9. 从二维到多维
 
 在二维场景下，我们引入了复平面，是为了使用欧拉公式获取漂亮的数学特性，来简化过程。但是在多维场景下，我们可以直接使用矩阵的特性，来简化过程。将2维的RoPE推广到多维的RoPE，只需要将2维的RoPE的旋转矩阵$R$替换为多维的旋转矩阵$R$即可。
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/7.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/7.png>)
 
 因为内积满足线性叠加性质，所以任意***偶数维***的RoPE都可以表示为二维情形拼接而成的形式。
-
-![alt text](<assest/什么是大模型的位置编码Position Encoding/8.PNG>)
 
 即是在原来的$q*k$矩阵的基础上，加上了一个旋转矩阵$R^d_{\theta,m}$，这就是RoPE的设计思路。
 
 在原始paper中，有一个直观的图
 
-![alt text](<assest/什么是大模型的位置编码Position Encoding/9.PNG>)
+![alt text](<assest/什么是大模型的位置编码Position Encoding/2.png>)
 
 ## 10.总结
 旋转位置编码由**苏剑林**大神设计，其引入数学中最美丽的公式-欧拉公式。

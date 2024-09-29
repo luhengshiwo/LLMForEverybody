@@ -121,11 +121,11 @@
 
 **[⬆ 一键返回目录](#目录)**
 
-[过去式就能越狱大模型？一文了解大模型安全攻防战！](<06-第六章-Prompt Engineering/assest/过去式就能越狱大模型？一文了解大模型安全攻防战！.md>)
+[过去式就能越狱大模型？一文了解大模型安全攻防战！](<06-第六章-Prompt Engineering/过去式就能越狱大模型？一文了解大模型安全攻防战！.md>)
 
-[万字长文 Prompt Engineering-解锁大模型的力量](<06-第六章-Prompt Engineering/assest/万字长文 Prompt Engineering-解锁大模型的力量.md>)
+[万字长文 Prompt Engineering-解锁大模型的力量](<06-第六章-Prompt Engineering/万字长文 Prompt Engineering-解锁大模型的力量.md>)
 
-[COT思维链，TOT思维树，GOT思维图，这些都是什么？](<06-第六章-Prompt Engineering/assest/COT思维链，TOT思维树，GOT思维图，这些都是什么？.md>)
+[COT思维链，TOT思维树，GOT思维图，这些都是什么？](<06-第六章-Prompt Engineering/COT思维链，TOT思维树，GOT思维图，这些都是什么？.md>)
 
 ## 第七章-Agent
 
@@ -144,6 +144,8 @@
 [搭配Knowledge-Graph的RAG架构](<07-第七章-Agent/搭配Knowledge Graph的RAG架构.md>)
 
 [GraphRAG：解锁大模型对叙述性私人数据的检索能力（中文翻译）](<07-第七章-Agent/GraphRAG 解锁大模型对叙述性私人数据的检索能力（中文翻译）.md>)
+
+[干货： 落地企业级RAG的实践指南](<07-第七章-Agent/干货： 落地企业级RAG的实践指南.md>)
 
 ## 第八章-大模型企业落地
 
