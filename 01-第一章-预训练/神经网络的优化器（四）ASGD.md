@@ -3,7 +3,7 @@
 ## 1. ASGD算法的提出
 平均随机梯度下降（Average Stochastic Gradient Descent，ASGD）是一种用于优化可微分目标函数的迭代方法，它是梯度下降优化的随机近似。ASGD的提出可以追溯到1992年，由B.T.Polyak在他的论文《Acceleration of Stochastic Approximation by Averaging》[1](#refer-anchor-4)中首次描述了这一方法。ASGD通过对多个随机梯度的平均值进行更新，来减少随机梯度的方差，从而提高优化算法的收敛速度。这种方法在训练深度神经网络时，可以帮助算法更快地收敛到最优解。
 
-- 1
+![alt text](assest/神经网络的优化器（四）ASGD/1.png)
 
 ## 2. ASGD算法的原理
 
@@ -36,6 +36,7 @@ ASGD和Momentum都是用于优化神经网络的优化算法，它们之间的�
 - **学习率的调整**：在Momentum中，学习率是固定的，或者可以随着时间进行调整；而在ASGD中，学习率随着迭代次数的增加而自然减小；
 - **收敛行为**：Momentum通常在高曲率区域提供更好的加速效果，而ASGD则通过平均历史梯度来平滑梯度更新，减少噪声的影响。
 
+![alt text](assest/神经网络的优化器（四）ASGD/0.png)
 
 ## 参考
 [1] [Acceleration of stochastic approximation by averaging](https://dl.acm.org/doi/10.1137/0330046)
