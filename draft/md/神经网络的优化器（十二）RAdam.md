@@ -19,41 +19,41 @@ Radam（Rectified Adam）是一种优化算法，它是Adam优化器的一个变
 
 Radam的更新规则与Adam类似，但在更新参数时加入了一个修正项，以提高优化的效率。具体的更新公式如下：
 
-1. 初始化一阶矩估计（动量）$ m_t $ 和二阶矩估计（梯度平方的移动平均）$ v_t $ 为0，以及时间步长 $ t=1 $。
+1. 初始化一阶矩估计（动量）$m_t$ 和二阶矩估计（梯度平方的移动平均）$v_t$ 为0，以及时间步长 $t=1$。
 
-2. 在每次迭代中，计算梯度 $ g_t $。
+2. 在每次迭代中，计算梯度 $g_t$。
 
-3. 更新一阶矩估计 $ m_t $ 和二阶矩估计 $ v_t $：
+3. 更新一阶矩估计 $m_t$ 和二阶矩估计 $v_t$：
 
-   $ m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $
+   $m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t$
 
-   $ v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2 $
+   $v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2$
 
-4. 计算偏差修正的一阶矩估计 $ \hat{m}_t $ 和二阶矩估计 $ \hat{v}_t $：
+4. 计算偏差修正的一阶矩估计 $\hat{m}_t $ 和二阶矩估计 $ \hat{v}_t$：
 
-   $ \hat{m}_t = \frac{m_t}{1 - \beta_1^t} $
+   $\hat{m}_t = \frac{m_t}{1 - \beta_1^t}$
 
-   $ \hat{v}_t = \frac{v_t}{1 - \beta_2^t} $
+   $\hat{v}_t = \frac{v_t}{1 - \beta_2^t}$
 
 5. 根据训练阶段动态调整学习率：
 
-    $\rho_\infty = \frac{2}{1 - \beta_2} - 1 $
+    $\rho_\infty = \frac{2}{1 - \beta_2} - 1$
 
-    $\rho_t = \rho_\infty - \frac{2t\beta_2^t}{1 - \beta_2^t} $
+    $\rho_t = \rho_\infty - \frac{2t\beta_2^t}{1 - \beta_2^t}$
 
-    $\text{如果 } \rho_t > 5, \text{ 则:} $
+    $\text{如果 } \rho_t > 5, \text{ 则:}$
 
     $r_t = \sqrt{\frac{(\rho_t - 4)(\rho_t - 2)\rho_\infty}{(\rho_\infty - 4)(\rho_\infty - 2)\rho_t}}$
 
     $\text{否则:}$
 
-    $r_t = 1 $
+    $r_t = 1$
 
-6. 更新参数 $ \theta $：
+6. 更新参数 $\theta$：
 
-   $ \theta_t = \theta_{t-1} - \eta_t \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} $
+   $\theta_t = \theta_{t-1} - \eta_t \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}$
 
-其中，$ \eta $ 是初始学习率，$ \epsilon $ 是为了数值稳定性而添加的小常数（例如 $ 1e-8 $），$ \beta_1 $ 和 $ \beta_2 $ 是超参数，通常分别设为0.9和0.999。
+其中，$\eta$ 是初始学习率，$\epsilon$ 是为了数值稳定性而添加的小常数（例如 $1e-8$ ），$\beta_1$ 和 $\beta_2$ 是超参数，通常分别设为0.9和0.999。
 
 ## Radam的优点和缺点：
 

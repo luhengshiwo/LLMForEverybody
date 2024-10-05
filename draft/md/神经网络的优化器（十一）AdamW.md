@@ -8,19 +8,21 @@ AdamW算法是由Ilya Loshchilov和Frank Hutter提出的。这一算法的详细
 AdamW优化器是在Adam优化器的基础上进行了改进，主要解决了在Adam中使用权重衰减（Weight Decay）时的问题。在标准的Adam优化器中，权重衰减是直接加到梯度上的，但在AdamW中，权重衰减是以不同的方式应用的，它直接作用在参数更新上。
 
 AdamW的更新公式如下：
-1. 初始化一阶矩估计（动量）$ m_0 $ 和二阶矩估计（梯度平方的移动平均）$ v_0 $ 为0，以及时间步长 $ t=1 $。
-2. 在每次迭代中，计算梯度 $ g_t $。
-3. 更新一阶矩估计 $ m_t $ 和二阶矩估计 $ v_t $：
+1. 初始化一阶矩估计（动量）$m_0$ 和二阶矩估计（梯度平方的移动平均）$v_0$ 为0，以及时间步长 $t=1$ ；
 
-   $ m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $
+2. 在每次迭代中，计算梯度 $g_t$；
 
-   $ v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2 $
-4. 计算偏差修正的一阶矩估计 $ \hat{m}_t $ 和二阶矩估计 $ \hat{v}_t $：
+3. 更新一阶矩估计 $m_t$ 和二阶矩估计 $v_t$ ：
 
-   $ \hat{m}_t = \frac{m_t}{1 - \beta_1^t} $
+   $m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t$
 
-   $ \hat{v}_t = \frac{v_t}{1 - \beta_2^t} $
-5. 更新参数 $ \theta $，这里 $ \lambda $ 是权重衰减系数：
+   $v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2$
+4. 计算偏差修正的一阶矩估计 $\hat{m}_t$ 和二阶矩估计 $\hat{v}_t$：
+
+   $\hat{m}_t = \frac{m_t}{1 - \beta_1^t}$
+
+   $\hat{v}_t = \frac{v_t}{1 - \beta_2^t}$
+5. 更新参数 $\theta$，这里 $\lambda$ 是权重衰减系数：
 
    $\theta_t = \theta_{t-1} - \eta \left( \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} + \lambda \theta_{t-1} \right)$
 
@@ -46,7 +48,6 @@ AdamW（Adam with Weight Decay）是一种流行的优化算法，它在原始�
 1. **超参数调整**：AdamW引入了额外的超参数（如权重衰减系数），这可能需要更多的调参工作来找到最优的超参数组合;
 
 2. **对学习率的敏感性**：AdamW对学习率的选择可能比SGD等其他优化器更敏感，不恰当的学习率设置可能导致训练效果不佳。
-
 
 
 ## 参考
