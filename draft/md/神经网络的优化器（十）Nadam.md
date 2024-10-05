@@ -9,26 +9,29 @@ Nadam（Nesterov-accelerated Adaptive Moment Estimation）是一种结合了Nest
 
 Nadam的更新规则如下：
 
-1. 初始化一阶矩估计（动量）$ m_0 $ 和二阶矩估计（梯度平方的移动平均）$ v_0 $ 为0，以及时间步长 $ t=1 $;
-2. 在每次迭代中，计算梯度 $ g_t $;
-3. 更新一阶矩估计 $ m_t $ 和二阶矩估计 $ v_t $：
+1. 初始化一阶矩估计（动量）$m_0$ 和二阶矩估计（梯度平方的移动平均）$v_0$ 为0，以及时间步长 $t=1$;
+2. 在每次迭代中，计算梯度 $g_t$;
+3. 更新一阶矩估计 $m_t$ 和二阶矩估计 $v_t$：
 
-   $ m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $
+   $m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t$
 
-   $ v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2 $
-4. 计算偏差修正的一阶矩估计 $ \hat{m}_t $ 和二阶矩估计 $ \hat{v}_t $：
+   $v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2$
 
-   $ \hat{m}_t = \frac{m_t}{1 - \beta_1^t} $
+4. 计算偏差修正的一阶矩估计 $\hat{m}_t$ 和二阶矩估计 $\hat{v}_t$ ：
 
-   $ \hat{v}_t = \frac{v_t}{1 - \beta_2^t} $
-5. 计算Nadam特有的修正动量 $ \hat{m}_t^{'} $：
+   $\hat{m}_t = \frac{m_t}{1 - \beta_1^t}$
 
-   $ \hat{m}_t^{'} = \beta_1 \cdot m_{t-1} +\frac{(1 - \beta_1) \cdot g_t}{1 - \beta_1^t} $
-6. 更新参数 $ \theta $：
+   $\hat{v}_t = \frac{v_t}{1 - \beta_2^t}$
 
-   $ \theta_t = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t^{'}}{\sqrt{\hat{v}_t} + \epsilon} $
+5. 计算Nadam特有的修正动量 $\hat{m}_t^{'}$ ：
 
-在Nadam的更新公式中，$ \hat{m}_t^{'} $ 是结合了Nesterov动量的修正动量，它在计算更新时考虑了前一步的速度。这种结合Nesterov动量的特性是Nadam与Adam的主要区别。
+   $\hat{m}_t^{'} = \beta_1 \cdot m_{t-1} +\frac{(1 - \beta_1) \cdot g_t}{1 - \beta_1^t}$
+
+6. 更新参数 $\theta$：
+
+   $\theta_t = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t^{'}}{\sqrt{\hat{v}_t} + \epsilon}$
+
+在Nadam的更新公式中，$\hat{m}_t^{'}$ 是结合了Nesterov动量的修正动量，它在计算更新时考虑了前一步的速度。这种结合Nesterov动量的特性是Nadam与Adam的主要区别。
 
 ## 3. Nadam算法的主要特点
 

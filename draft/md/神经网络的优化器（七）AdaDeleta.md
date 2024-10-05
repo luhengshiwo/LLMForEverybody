@@ -12,13 +12,13 @@ Adadelta的更新规则如下：
 1. 初始化两个状态变量：累积平方梯度的指数加权平均变量 `s` 和累积更新量的指数加权平均变量 `delta`。
 2. 在每次迭代中，计算梯度 `g`。
 3. 更新累积平方梯度的指数加权平均 `s`：
-   $ s = \rho \cdot s + (1 - \rho) \cdot g^2 $
+   $s = \rho \cdot s + (1 - \rho) \cdot g^2$
 4. 计算参数更新量 `delta_p`：
-   $ \delta_p = -\frac{\sqrt{\delta + \epsilon}}{\sqrt{s + \epsilon}} \cdot g $
+   $\delta_p = -\frac{\sqrt{\delta + \epsilon}}{\sqrt{s + \epsilon}} \cdot g$
 5. 更新参数 `w`：
-   $ w = w + \delta_p $
+   $w = w + \delta_p$
 6. 更新累积更新量的指数加权平均 `delta`：
-   $ \delta = \rho \cdot \delta + (1 - \rho) \cdot \delta_p^2 $
+   $\delta = \rho \cdot \delta + (1 - \rho) \cdot \delta_p^2$
 
 其中，`ρ` 是用于计算平方梯度的指数加权平均的系数（通常设为0.9），`ε` 是一个很小的数（如 `1e-6`），用于增加数值计算的稳定性。
 

@@ -8,14 +8,14 @@ RMSProp（Root Mean Square Propagation）算法由 Geoffrey Hinton 在他的 Cou
 RMSprop（Root Mean Square Propagation）是一种自适应学习率的优化算法，它是为了解决Adagrad算法中学习率递减导致的问题而提出的。RMSprop通过使用指数加权移动平均来调整每个参数的学习率，使得学习率的调整更加平滑。
 
 RMSprop的更新规则如下：
-1. 初始化参数 $ \theta $，设置学习率 $ \eta $，衰减系数 $ \rho $（通常设为0.9），以及数值稳定性的小常数 $ \epsilon $（通常设为 $ 1e-8 $）。
-2. 在每次迭代中，计算参数 $ \theta $ 的梯度 $ g $。
-3. 更新累积平方梯度的指数加权移动平均 $ r $：
-   $ r = \rho \cdot r + (1 - \rho) \cdot g^2 $
+1. 初始化参数 $\theta$，设置学习率 $\eta$，衰减系数 $\rho$（通常设为0.9），以及数值稳定性的小常数 $\epsilon$（通常设为 $1e-8$ ）；
+2. 在每次迭代中，计算参数 $\theta$ 的梯度 $g$ ；
+3. 更新累积平方梯度的指数加权移动平均 $r$ ：
+   $r = \rho \cdot r + (1 - \rho) \cdot g^2$
 4. 计算参数更新量：
-   $ \Delta\theta = \frac{\eta}{\sqrt{r + \epsilon}} \cdot g $
+   $\Delta\theta = \frac{\eta}{\sqrt{r + \epsilon}} \cdot g$
 5. 更新参数 $ \theta $：
-   $ \theta = \theta - \Delta\theta $
+   $\theta = \theta - \Delta\theta$
 
 ## 3. RMSprop算法的主要特点
 
@@ -25,10 +25,10 @@ RMSprop算法的优点包括：
 - 可以缓解梯度消失或梯度爆炸的问题
 
 RMSprop算法的缺点包括：
-- 需要调整新的超参数——衰减速率 $ \rho $;
-- 依然依赖于全局学习速率 $ \eta $，如果设置不当，可能会导致模型训练效果不佳。
+- 需要调整新的超参数——衰减速率 $\rho$;
+- 依然依赖于全局学习速率 $ eta$，如果设置不当，可能会导致模型训练效果不佳。
 
-在实际应用中，建议从较小的全局学习速率开始尝试，并逐步增加以找到最佳性能。同时，可以尝试不同的衰减速率 $ \rho $ 以找到最适合模型的设置。
+在实际应用中，建议从较小的全局学习速率开始尝试，并逐步增加以找到最佳性能。同时，可以尝试不同的衰减速率 $\rho$ 以找到最适合模型的设置。
 
 ## 4. RMSprop和AdaGrad的区别
 
