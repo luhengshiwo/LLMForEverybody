@@ -5,7 +5,7 @@ AdaGrad（Adaptive Gradient Algorithm）是由 John Duchi, Elad Hazan, 和 Yoram
 
 ## 2. AdaGrad算法的原理
 
-1. **初始化**：为每个参数 $ \theta_i $ 初始化梯度平方和 $\sum g_i^2 = 0$。
+1. **初始化**：为每个参数 $\theta_i$ 初始化梯度平方和 $\sum g_i^2 = 0$。
 
 2. **梯度计算**：在每次迭代中，计算参数 $\theta_i$ 的梯度 $g_i$。
 
