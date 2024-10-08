@@ -47,6 +47,7 @@ Adagrad（Adaptive Gradient Algorithm）是一种用于优化大规模机器学�
 
 Adagrad是一种有效的优化算法，尤其适用于处理大规模和稀疏数据集。然而，由于其学习率递减的特性，可能需要与其他优化算法（如RMSprop或Adam）结合使用，以克服其局限性。
 
+![alt text](assest/神经网络的优化器（六）AdaGrad/0.png)
 
 ## 参考
 [1] [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
