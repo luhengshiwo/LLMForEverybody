@@ -5,7 +5,7 @@ AdaGrad（Adaptive Gradient Algorithm）是由 John Duchi, Elad Hazan, 和 Yoram
 
 ## 2. AdaGrad算法的原理
 
-1. **初始化**：为每个参数 $ \theta_i $ 初始化梯度平方和 $\sum g_i^2 = 0$。
+1. **初始化**：为每个参数 $\theta_i$ 初始化梯度平方和 $\sum g_i^2 = 0$。
 
 2. **梯度计算**：在每次迭代中，计算参数 $\theta_i$ 的梯度 $g_i$。
 
@@ -47,6 +47,7 @@ Adagrad（Adaptive Gradient Algorithm）是一种用于优化大规模机器学�
 
 Adagrad是一种有效的优化算法，尤其适用于处理大规模和稀疏数据集。然而，由于其学习率递减的特性，可能需要与其他优化算法（如RMSprop或Adam）结合使用，以克服其局限性。
 
+![alt text](assest/神经网络的优化器（六）AdaGrad/0.png)
 
 ## 参考
 [1] [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
