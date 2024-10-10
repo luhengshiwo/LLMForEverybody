@@ -1,4 +1,4 @@
-大模型微调之Adapters（一）概述
+大模型微调之Adapters（一）综述
 
 大家应该都知道LoRA了，这是非常流行的PEFT方法，属于Adapters的一种。Adapters是一种非常好的微调大模型的方法，可以在不改变原模型参数的情况下，增加新的任务。这个系列会介绍Adapters的几种变种，包括LoRA、QLoRA、AdaLoRA等。
 
