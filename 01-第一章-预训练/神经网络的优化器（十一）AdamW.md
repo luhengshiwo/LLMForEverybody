@@ -49,6 +49,7 @@ AdamW（Adam with Weight Decay）是一种流行的优化算法，它在原始�
 
 2. **对学习率的敏感性**：AdamW对学习率的选择可能比SGD等其他优化器更敏感，不恰当的学习率设置可能导致训练效果不佳。
 
+![alt text](assest/神经网络的优化器（十一）AdamW/0.png)
 
 ## 参考
 
