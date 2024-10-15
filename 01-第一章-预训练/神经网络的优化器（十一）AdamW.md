@@ -53,7 +53,7 @@ AdamW（Adam with Weight Decay）是一种流行的优化算法，它在原始�
 
 ## 参考
 
-[1] [DECOUPLED WEIGHT DECAY REGULARIZATION]((https://arxiv.org/pdf/1711.05101))
+[1] [DECOUPLED WEIGHT DECAY REGULARIZATION](https://arxiv.org/pdf/1711.05101)
 
 ## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
 

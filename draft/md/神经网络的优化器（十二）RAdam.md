@@ -77,34 +77,3 @@ Radam在某些任务中可能会比Adam和其他优化器有更好的表现，�
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
 仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
-
-
-flowchart BT
-    style roots fill:#8FBC8F,stroke:#333,stroke-width:2px
-    style trunk fill:#DEB887,stroke:#333,stroke-width:2px
-    style leaf5 fill:#DEB887,stroke:#333,stroke-width:2px
-    roots[Optimizer]
-    roots --> trunk[SGD 1964]
-    trunk --> branch1[Momentum 1964]
-    trunk --> branch2[ASGD 1992]
-    trunk --> branch3[Rprop 1993]
-    trunk --> branch4[AdaGrad 2011]
-    branch4 --> leaf1[AdaDleta 2012]
-    branch4 --> leaf2[RMSprop 2012]
-    leaf2 --> leaf3[Adam 2014]
-    leaf3 --> leaf4[Nadam 2016]
-    leaf3 --> leaf5[AdamW 2017]
-    leaf3 --> leaf6[Radam 2019]
-
-timeline
-    title 优化器Optimizer发展时间线
-    1951 : SGD Stochastic Gradient Descent
-    1964 : Momentum 
-    1992 : ASGD Average Stochastic Gradient Descent
-    1993 : Rprop
-    2011 : AdaGrad
-    2012 : AdaDelta & RMSprop
-    2014 : Adam
-    2016 : Nadam
-    2017 : AdamW
-    2019 : RAdam
