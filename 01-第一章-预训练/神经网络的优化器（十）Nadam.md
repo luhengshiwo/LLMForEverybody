@@ -46,6 +46,8 @@ Nadam算法的缺点可能包括：
 
 在实际应用中，Nadam通常被用于深度学习模型的训练，尤其是在需要快速收敛和对稀疏数据集进行优化时。它在许多情况下都能提供良好的性能，但使用时需要注意调整超参数以达到最佳效果。   
 
+![alt text](assest/神经网络的优化器（十）Nadam/0.png)
+
 ## 参考
 
 [1] [Incorporating Nesterov Momentum into Adam](https://openreview.net/forum?id=OM0jvwB8jIp57ZJjtNEZ)

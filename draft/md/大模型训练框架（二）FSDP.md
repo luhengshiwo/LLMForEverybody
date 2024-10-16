@@ -206,6 +206,15 @@ use_cpu: false
 
 - 2
 
+以下是各种框架对并行策略（截至2024/10/12）的支持情况：
+
+| 框架 | DP| PP |TP|3D并行|
+| :--- |:----:| :----: |:---: |:---: |
+| Pytorch(FSDP)|是|否| 否|否|
+| DeepSpeed |是| 是|是 |是|
+| Megatron-LM|是|是|是|是|
+| Accelerate |是|否|否|否|
+
 ## 参考
 
 <div id="refer-anchor-1"></div>

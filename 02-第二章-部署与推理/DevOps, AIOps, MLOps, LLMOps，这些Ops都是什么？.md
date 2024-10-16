@@ -6,7 +6,7 @@ DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？
 
 CI/CD 是持续集成（Continuous Integration）和持续交付（Continuous Delivery）的缩写。CI/CD 是一种软件开发实践，旨在通过自动化软件构建、测试和部署流程来提高开发团队的效率和质量。
 
-- 00
+![alt text](<assest/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？/00.png>)
 
 ***持续集成（CI）***：
 
@@ -24,7 +24,7 @@ CI/CD 是持续集成（Continuous Integration）和持续交付（Continuous De
 
 DevOps 的历史可以追溯到2007年左右，当时软件开发和 IT 运营社区开始担忧传统的软件开发模式。在这种模式下，编写代码的开发人员与部署和支持代码的运营人员会独立工作。DevOps 这一术语由“开发”和“运营”两个词构成，它反映了将这些领域整合为一个持续流程的过程。DevOps 运动在 2007 到 2008 年间开始盛行，Patrick Debois 在比利时举办的 DevOpsDays 是 DevOps 概念的重要里程碑之一，这个会议将 DevOps 理念传播到了全球.
 
-- 01
+![alt text](<assest/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？/01.png>)
 
 DevOps 的核心价值包括：
 
@@ -38,7 +38,7 @@ DevOps 的核心价值包括：
 
 AIOps 是人工智能运维（Artificial Intelligence for IT Operations）的缩写，是一种利用人工智能和机器学习技术来改进 IT 运维的实践。AIOps 旨在通过自动化和智能化来提高 IT 运维的效率和质量。
 
-- 02
+![alt text](<assest/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？/02.png>)
 
 AIOps的核心目标是从海量的运维数据中提取有价值的信息，实现故障的快速发现、准确诊断和自动修复，从而提高IT系统的可靠性和运维效率。
 
@@ -62,7 +62,7 @@ MLOps即机器学习运维（Machine Learning Operations），是一组工作流
 
 > tips：在工业界，人们先想到AI可以辅助运维，然后才意识到AI本身也需要运维，所以‘AIOps’的名称被先指代为AI运维，而后来AI模型的运维只能使用‘MLOps’这个名字了。
 
-- 03
+![alt text](<assest/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？/03.png>)
 
 MLOps 的关键组成部分包括：
 
@@ -79,7 +79,7 @@ MLOps 的优势包括缩短上市时间、提高工作效率、高效的模型�
 
 随着大模型的兴起，LLMOps（Large Language Model Operations）也逐渐成为了一个新的热门话题。LLMOps 是指大型语言模型的运维，旨在简化大模型的部署和维护过程，提高模型的质量和效率，其对标的概念是MLOps。
 
-- 04
+![alt text](<assest/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？/04.png>)
 
 首先，我们对比下传统软件应用（包含机器学习）和大模型应用的区别：
 
@@ -98,7 +98,7 @@ MLOps 的优势包括缩短上市时间、提高工作效率、高效的模型�
 |重点|数据准备、模型训练、模型部署、模型监控、模型再训练|数据准备、模型部署、监控、可观测性、安全性|
 |工具|MLOps 平台、数据准备工具、模型训练框架、模型部署工具、监控工具|LLMOps 平台、数据准备工具、模型部署工具、监控工具、可观测性工具、安全工具|
 
->05
+![alt text](<assest/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？/05.png>)
 
 >注意： LLMOps,一般指的是大模型应用的运维，而不是大模型的训练，因为大模型的训练是一个离线的过程，而大模型的应用是一个在线的过程。
 
