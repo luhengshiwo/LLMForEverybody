@@ -1,4 +1,4 @@
-神经网络的激活函数（六） GELU和Mish
+神经网络的激活函数（六）GELU和Mish
 
 
 ## 1. GELU
