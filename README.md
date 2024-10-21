@@ -187,6 +187,8 @@
 
 [大模型落地难点之结构化输出](08-第八章-大模型企业落地/大模型落地难点之结构化输出.md)
 
+[大模型应用涌现出的新工作机会-红队测试Red-teaming](08-第八章-大模型企业落地/大模型应用涌现出的新工作机会-红队测试Red-teaming.md)
+
 ## 第九章-大模型评估指标
 
 [大模型有哪些评估指标？](09-第九章-评估指标/大模型有哪些评估指标？.md)
@@ -208,3 +210,8 @@
 [我是怎么通过2022下半年软考高级：系统架构设计师考试的](10-第十章-热点/我是怎么通过2022下半年软考高级：系统架构设计师考试的.md)
 
 [用Exploit and Explore解决不知道吃什么的选择困难症](<10-第十章-热点/用Exploit-and-Explore解决不知道吃什么的选择困难症.md>)
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=luhengshiwo/LLMForEverybody&type=Date)](https://star-history.com/#luhengshiwo/LLMForEverybody&Date)
