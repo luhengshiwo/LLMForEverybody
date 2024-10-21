@@ -37,6 +37,9 @@
 
 [大家都谈的Scaling_Law是什么](<00-序-AGI之路/大家都谈的Scaling_Law是什么.md>)
 
+[大家都谈的Scaling_Law是什么？](<00-序-AGI之路/大家都谈的Scaling_Law是什么？.md>)
+
+
 [智能涌现和AGI的起源](00-序-AGI之路/智能涌现和AGI的起源.md)
 
 [什么是perplexity](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483766&idx=1&sn=56563281557b6f58feacb935eb6a872a&chksm=c2048544f5730c52cf2bf4c9ed60ac0a21793bacdddc4d63b481d4aa887bc6a838fecf0b6cc7&token=607452854&lang=zh_CN#rd)
