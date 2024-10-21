@@ -37,8 +37,6 @@
 
 [大家都在谈的Scaling_Law是什么](00-序-AGI之路/大家都在谈的ScalingLaw是什么.md)
 
-[aatest](00-序-AGI之路/aatest.md)
-
 [智能涌现和AGI的起源](00-序-AGI之路/智能涌现和AGI的起源.md)
 
 [什么是perplexity](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483766&idx=1&sn=56563281557b6f58feacb935eb6a872a&chksm=c2048544f5730c52cf2bf4c9ed60ac0a21793bacdddc4d63b481d4aa887bc6a838fecf0b6cc7&token=607452854&lang=zh_CN#rd)
@@ -53,11 +51,11 @@
 
 [10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm](01-第一章-预训练/10分钟搞清楚为什么Transformer中使用LayerNorm而不是BatchNorm.md)
 
-[混合专家模型 (MoE) 详解（节选）](<01-第一章-预训练/混合专家模型 (MoE) 详解（节选）.md>)
+[混合专家模型MoE详解节选](01-第一章-预训练/混合专家模型MoE详解节选.md)
 
 [最简单的方式理解Mamba（中文翻译）](01-第一章-预训练/最简单的方式理解Mamba（中文翻译）.md)
 
-[10分钟了解什么是多模态大模型（Multimodal LLMs）](<01-第一章-预训练/10分钟了解什么是多模态大模型（Multimodal LLMs）.md>)
+[10分钟了解什么是多模态大模型](01-第一章-预训练/10分钟了解什么是多模态大模型.md)
 
 ### Optimizer
 
@@ -89,19 +87,19 @@
 
 ### 激活函数
 
-[为什么大型语言模型都在使用 SwiGLU 作为激活函数？](<01-第一章-预训练/为什么大型语言模型都在使用 SwiGLU 作为激活函数？.md>)
+[为什么大型语言模型都在使用SwiGLU作为激活函数？](01-第一章-预训练/为什么大型语言模型都在使用SwiGLU作为激活函数？.md)
 
 ### Attention机制
 
 [看懂FlashAttention需要的数学储备是？高考数学最后一道大题](01-第一章-预训练/看懂FlashAttention需要的数学储备是？高考数学最后一道大题！.md)
 
-[FlashAttention v2相比于v1有哪些更新？](<01-第一章-预训练/FlashAttention v2相比于v1有哪些更新？.md>)
+[FlashAttentionv2相比于v1有哪些更新？](<01-第一章-预训练/FlashAttentionv2相比于v1有哪些更新？.md>)
 
-[为什么会发展出Multi Query Attention和Group Query Attention](<01-第一章-预训练/为什么会发展出Multi Query Attention和Group Query Attention.md>)
+[为什么会发展出Multi-Query-Attention和Group-Query-Attention](<01-第一章-预训练/为什么会发展出Multi-Query-Attention和Group-Query-Attention.md>)
 
 ### 位置编码
 
-[什么是大模型的位置编码Position Encoding](<01-第一章-预训练/什么是大模型的位置编码Position Encoding.md>)
+[什么是大模型的位置编码Position-Encoding](<01-第一章-预训练/什么是大模型的位置编码Position-Encoding.md>)
 
 [复变函数在大模型位置编码中的应用](01-第一章-预训练/复变函数在大模型位置编码中的应用.md)
 
@@ -115,15 +113,15 @@
 
 [10分钟私有化部署大模型到本地](02-第二章-部署与推理/10分钟私有化部署大模型到本地.md)
 
-[大模型output token为什么比input token贵](<02-第二章-部署与推理/大模型output token为什么比input token贵？.md>)
+[大模型output-token为什么比input-token贵](<02-第二章-部署与推理/大模型output-token为什么比input-token贵？.md>)
 
 [如何评判大模型的输出速度？首Token延迟和其余Token延迟有什么不同？](02-第二章-部署与推理/如何评判大模型的输出速度？首Token延迟和其余Token延迟有什么不同？.md)
 
 [大模型的latency（延迟）和throughput（吞吐量）有什么区别](02-第二章-部署与推理/大模型的latency（延迟）和throughput（吞吐量）有什么区别.md)
 
-[vLLM 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）](<02-第二章-部署与推理/vLLM 使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）.md>)
+[vLLM使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）](<02-第二章-部署与推理/vLLM使用PagedAttention轻松、快速且廉价地提供LLM服务（中文版翻译）.md>)
 
-[DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？](<02-第二章-部署与推理/DevOps, AIOps, MLOps, LLMOps，这些Ops都是什么？.md>)
+[DevOps，AIOps，MLOps，LLMOps，这些Ops都是什么？](<02-第二章-部署与推理/DevOps，AIOps，MLOps，LLMOps，这些Ops都是什么？.md>)
 
 ## 第三章-大模型微调
 
@@ -151,11 +149,11 @@
 
 **[⬆ 一键返回目录](#目录)**
 
-[过去式就能越狱大模型？一文了解大模型安全攻防战！](<06-第六章-Prompt Engineering/过去式就能越狱大模型？一文了解大模型安全攻防战！.md>)
+[过去式就能越狱大模型？一文了解大模型安全攻防战](<06-第六章-Prompt Engineering/过去式就能越狱大模型？一文了解大模型安全攻防战.md>)
 
-[万字长文 Prompt Engineering-解锁大模型的力量](<06-第六章-Prompt Engineering/万字长文 Prompt Engineering-解锁大模型的力量.md>)
+[万字长文Prompt-Engineering-解锁大模型的力量](<06-第六章-Prompt Engineering/万字长文Prompt-Engineering-解锁大模型的力量.md>)
 
-[COT思维链，TOT思维树，GOT思维图，这些都是什么？](<06-第六章-Prompt Engineering/COT思维链，TOT思维树，GOT思维图，这些都是什么？.md>)
+[COT思维链，TOT思维树，GOT思维图，这些都是什么](<06-第六章-Prompt Engineering/COT思维链，TOT思维树，GOT思维图，这些都是什么.md>)
 
 ## 第七章-Agent
 
@@ -171,11 +169,11 @@
 
 [向量数据库拥抱大模型](07-第七章-Agent/向量数据库拥抱大模型.md)
 
-[搭配Knowledge-Graph的RAG架构](<07-第七章-Agent/搭配Knowledge Graph的RAG架构.md>)
+[搭配Knowledge-Graph的RAG架构](<07-第七章-Agent/搭配Knowledge-Graph的RAG架构.md>)
 
-[GraphRAG：解锁大模型对叙述性私人数据的检索能力（中文翻译）](<07-第七章-Agent/GraphRAG 解锁大模型对叙述性私人数据的检索能力（中文翻译）.md>)
+[GraphRAG：解锁大模型对叙述性私人数据的检索能力（中文翻译）](<07-第七章-Agent/GraphRAG解锁大模型对叙述性私人数据的检索能力（中文翻译）.md>)
 
-[干货： 落地企业级RAG的实践指南](<07-第七章-Agent/干货： 落地企业级RAG的实践指南.md>)
+[干货： 落地企业级RAG的实践指南](<07-第七章-Agent/干货-落地企业级RAG的实践指南.md>)
 
 ## 第八章-大模型企业落地
 
@@ -205,8 +203,8 @@
 
 [9.11大于9.9？大模型怎么又翻车了？](https://mp.weixin.qq.com/s?__biz=MzkyOTY4Mjc4MQ==&mid=2247483800&idx=1&sn=48b326352c37d686f7f46ee5df9f00b4&chksm=c20485aaf5730cbca8f0dfcb9746830229b8f07eec092e0e124bc558d1073ee32e3f55716221&token=607452854&lang=zh_CN#rd)
 
-[韩国“N 号房”事件因Deep Fake再现，探究背后的技术和应对方法](<10-第十章-热点/韩国“N 号房”事件因Deep Fake再现，探究背后的技术和应对方法.md>)
+[韩国“N 号房”事件因Deep Fake再现，探究背后的技术和应对方法](<10-第十章-热点/韩国“N 号房”事件因Deep-Fake再现，探究背后的技术和应对方法.md>)
 
 [我是怎么通过2022下半年软考高级：系统架构设计师考试的](10-第十章-热点/我是怎么通过2022下半年软考高级：系统架构设计师考试的.md)
 
-[用Exploit and Explore解决不知道吃什么的选择困难症](<10-第十章-热点/用Exploit and Explore解决不知道吃什么的选择困难症.md>)
+[用Exploit and Explore解决不知道吃什么的选择困难症](<10-第十章-热点/用Exploit-and-Explore解决不知道吃什么的选择困难症.md>)
