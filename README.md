@@ -35,7 +35,7 @@
 
 **[⬆ 一键返回目录](#目录)** 
 
-[大家都谈的Scaling_Law是什么](<00-序-AGI之路/大家都谈的Scaling_Law是什么.md>)
+[大家都在谈的Scaling_Law是什么](00-序-AGI之路/大家都在谈的ScalingLaw是什么.md)
 
 [aatest](00-序-AGI之路/aatest.md)
 
