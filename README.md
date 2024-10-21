@@ -35,7 +35,7 @@
 
 **[⬆ 一键返回目录](#目录)** 
 
-[大家都谈的Scaling Law是什么](<00-序-AGI之路/大家都谈的Scaling Law是什么.md>)
+[大家都谈的Scaling-Law是什么](<00-序-AGI之路/大家都谈的Scaling-Law是什么.md>)
 
 [智能涌现和AGI的起源](00-序-AGI之路/智能涌现和AGI的起源.md)
 
