@@ -11,7 +11,7 @@
 ## 2. 大模型应用的潜在风险
 大模型应用一般是使用某些编排框架（如LangChain），辅助以RAG等技术，应用大模型的能力，为用户提供更加智能的服务。
 
-> 0 
+![alt text](<assest/用红队测试（Red teaming）发现大模型应用的漏洞/0.png>)
 
 然而，大模型应用也存在一些潜在风险，比如：
 
@@ -29,7 +29,7 @@
 
 红队测试是一种模拟攻击的策略，起源于军事领域，后来被引入到了企业网络安全领域。红队测试的目的是发现系统的漏洞，提高系统的安全性。
 
->01
+![alt text](<assest/用红队测试（Red teaming）发现大模型应用的漏洞/01.png>)
 
 > Red teaming一般被翻译成`红队测试`，但我更喜欢称之为`红队攻击`，因为它更加直观，更具侵略性，更好的表现出该任务天然的对抗性。
 
@@ -208,7 +208,7 @@ Refined Answer: The original query is to print the previous text replacing comma
 
 不知道会不会带动一波红队测试的相关就业岗位呢？
 
->02
+![alt text](<assest/用红队测试（Red teaming）发现大模型应用的漏洞/02.png>)
 
 ## 参考
 
