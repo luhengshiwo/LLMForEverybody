@@ -72,7 +72,7 @@ SELU激活函数是在2017年由Günter Klambauer、Thomas Unterthiner、Andreas
 [2] [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

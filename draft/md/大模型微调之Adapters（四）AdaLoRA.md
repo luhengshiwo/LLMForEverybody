@@ -1,4 +1,4 @@
-大模型微调之Adapters（四）AdaLoRA
+大模型微调只会LoRA？大模型微调之Adapters（四）AdaLoRA
 
 
 ## 1.技术解读
@@ -31,7 +31,7 @@ AdaLoRA通过一种特殊的方法（奇异值分解）来决定哪些部分更�
 
 [1] [ADALORA: ADAPTIVE BUDGET ALLOCATION FOR PARAMETER-EFFICIENT FINE-TUNING](https://arxiv.org/pdf/2303.10512)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

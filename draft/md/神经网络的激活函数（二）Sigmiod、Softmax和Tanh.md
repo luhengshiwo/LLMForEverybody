@@ -126,7 +126,7 @@ Tanh函数与双曲函数的研究可以追溯到18世纪。它在数学和工�
 
 [3] [Hyperbolic Tangent](https://mathworld.wolfram.com/HyperbolicTangent.html)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

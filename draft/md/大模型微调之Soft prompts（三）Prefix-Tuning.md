@@ -1,4 +1,4 @@
-大模型微调之Soft prompts（三）Prefix-Tuning
+大模型微调只会LoRA？大模型微调之Soft prompts（三）Prefix-Tuning
 
 同样在2021年（和Prompt Tuning同一年），Prefix-Tuning被提出，它通过在模型输入的前缀位置添加可学习的提示向量来实现。这种方法的优势在于可以在不改变模型结构的情况下，为不同的任务提供不同的提示。
 
@@ -26,7 +26,7 @@ Prefix-Tuning和Prompt Tuning最主要区别在于，Prefix-Tuning的前缀参�
 [1] [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190)
 
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

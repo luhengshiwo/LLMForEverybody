@@ -80,7 +80,7 @@ Accelerate 提供了一种简单且灵活的方式来加速和扩展 PyTorch 训
 
 [1] [Accelerate](https://huggingface.co/docs/accelerate/index)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

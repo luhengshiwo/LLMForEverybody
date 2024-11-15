@@ -104,7 +104,7 @@ print(tokenizer.batch_decode(outputs.detach().cpu().numpy(), skip_special_tokens
 
 [1] [peft](https://huggingface.co/docs/peft/index)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

@@ -1,4 +1,4 @@
-大模型微调之Adapters（二）LoRA
+大模型微调只会LoRA？大模型微调之Adapters（二）LoRA
 
 LoRA（Low-Rank Adapter）[1](#refer-anchor-1) 是最流行的 PEFT 方法之一，如果你刚开始使用 PEFT，它是一个很好的起点。它最初是为大型语言模型开发的，但由于其效率和有效性，它是一种非常流行的扩散模型训练方法。
 
@@ -32,7 +32,7 @@ LoRA的优点在于它能够在保持模型性能的同时，显著减少微调�
 
 [1] [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

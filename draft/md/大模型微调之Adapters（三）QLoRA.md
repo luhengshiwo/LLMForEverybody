@@ -1,4 +1,4 @@
-大模型微调之Adapters（三）QLoRA
+大模型微调只会LoRA？大模型微调之Adapters（三）QLoRA
 
 
 ## 1.技术解读
@@ -41,7 +41,7 @@ QLoRA的做法就像是你不需要重新打印整本书，你只需要在书的
 
 [1] [QLORA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/pdf/2305.14314)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
