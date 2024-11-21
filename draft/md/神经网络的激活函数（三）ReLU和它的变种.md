@@ -1,4 +1,4 @@
-神经网络的激活函数（三）ReLU和它的变种Leaky ReLU、PReLU
+神经网络的激活函数（三）ReLU和它的变种Leaky-ReLU、PReLU
 
 本文我们介绍深度学习的功臣ReLU及其变种，它们在神经网络中的广泛应用，对于提高网络的性能和加速训练具有重要意义。
 
@@ -93,8 +93,6 @@ x & \text{if } x \geq 0 \\
 ### 3.3 提出时间
 
 PReLU是由何凯明（Kaiming He）、张翔（Xiangyu Zhang）、任少卿（Shaoqing Ren）和孙剑（Jian Sun）在2015年的论文《Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification》中提出的。
-
-
 
 ## 参考
 

@@ -1,4 +1,4 @@
-神经网络的激活函数（五）门控系列 GLU、Swish和SwiGLU
+神经网络的激活函数（五）门控系列GLU、Swish和SwiGLU
 
 ## 1. GLU函数
 
@@ -80,7 +80,7 @@ $$\text{Swish}(x) = x \cdot \sigma(\beta x)$$
 
 在大多数情况下，$\beta$ 被设置为1，从而简化为：
 
-\[ \text{Swish}(x) = x \cdot \sigma(x) \]
+$$\text{Swish}(x) = x \cdot \sigma(x)$$
 
 ### 关键性质
 
