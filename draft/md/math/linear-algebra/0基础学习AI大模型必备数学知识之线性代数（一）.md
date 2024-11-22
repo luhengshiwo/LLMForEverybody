@@ -79,13 +79,13 @@ determinant 在英文中的意思是：决定因素。在线性代数的语境�
 
 ## 参考
 
-[machine-learning-linear-algebra](https://www.coursera.org/learn/machine-learning-linear-algebra/home/week/1)
+[1] [machine-learning-linear-algebra](https://www.coursera.org/learn/machine-learning-linear-algebra/home/week/1)
 
-[Matrix和《黑客帝国》](https://www.sohu.com/a/297701917_120051601)
+[2] [Matrix和《黑客帝国》](https://www.sohu.com/a/297701917_120051601)
 
-[wiki:矩阵](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%98%B5)
+[3] [wiki:矩阵](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%98%B5)
 
-[wiki:西尔维斯特](https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E7%B4%84%E7%91%9F%E5%A4%AB%C2%B7%E8%A5%BF%E7%88%BE%E7%B6%AD%E6%96%AF%E7%89%B9)
+[4] [wiki:西尔维斯特](https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E7%B4%84%E7%91%9F%E5%A4%AB%C2%B7%E8%A5%BF%E7%88%BE%E7%B6%AD%E6%96%AF%E7%89%B9)
 
 ## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
