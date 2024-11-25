@@ -4,7 +4,7 @@
 
 ## 1. ReLU函数
 
-- 3
+![alt text](assest/神经网络的激活函数/3.png)
 
 ### 1.1 定义
 
@@ -39,7 +39,7 @@ $$\text{ReLU}(x) = \max(0, x)$$
 ## 2. Leaky ReLU函数
 Leaky ReLU（Leaky Rectified Linear Unit，带泄漏的修正线性单元）是ReLU激活函数的一种变体，它旨在解决ReLU的“Dying ReLU”问题。Dying ReLU问题是指在训练过程中，某些神经元可能永远不会被激活（即输入始终为负值），导致这些神经元在整个训练过程中都没有贡献。
 
-- 4
+![alt text](assest/神经网络的激活函数/4.png)
 
 ### 2.1 数学定义
 
@@ -67,7 +67,7 @@ x & \text{if } x \geq 0 \\
 
 ## PRReLU函数
 
-- 5
+![alt text](assest/神经网络的激活函数/5.png)
 
 PReLU（Parametric Rectified Linear Unit，参数化修正线性单元）是ReLU激活函数的另一种变体，它通过引入一个可学习的参数来控制负区间的斜率。PReLU旨在进一步改进ReLU及其变体（如Leaky ReLU）的性能。
 
