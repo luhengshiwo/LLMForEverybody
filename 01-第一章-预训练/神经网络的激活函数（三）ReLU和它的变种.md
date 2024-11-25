@@ -1,10 +1,10 @@
-神经网络的激活函数（三）ReLU和它的变种Leaky ReLU、PReLU
+神经网络的激活函数（三）ReLU和它的变种Leaky-ReLU、PReLU
 
 本文我们介绍深度学习的功臣ReLU及其变种，它们在神经网络中的广泛应用，对于提高网络的性能和加速训练具有重要意义。
 
 ## 1. ReLU函数
 
-- 3
+![alt text](assest/神经网络的激活函数/3.png)
 
 ### 1.1 定义
 
@@ -39,7 +39,7 @@ $$\text{ReLU}(x) = \max(0, x)$$
 ## 2. Leaky ReLU函数
 Leaky ReLU（Leaky Rectified Linear Unit，带泄漏的修正线性单元）是ReLU激活函数的一种变体，它旨在解决ReLU的“Dying ReLU”问题。Dying ReLU问题是指在训练过程中，某些神经元可能永远不会被激活（即输入始终为负值），导致这些神经元在整个训练过程中都没有贡献。
 
-- 4
+![alt text](assest/神经网络的激活函数/4.png)
 
 ### 2.1 数学定义
 
@@ -67,7 +67,7 @@ x & \text{if } x \geq 0 \\
 
 ## PRReLU函数
 
-- 5
+![alt text](assest/神经网络的激活函数/5.png)
 
 PReLU（Parametric Rectified Linear Unit，参数化修正线性单元）是ReLU激活函数的另一种变体，它通过引入一个可学习的参数来控制负区间的斜率。PReLU旨在进一步改进ReLU及其变体（如Leaky ReLU）的性能。
 
@@ -94,8 +94,6 @@ x & \text{if } x \geq 0 \\
 
 PReLU是由何凯明（Kaiming He）、张翔（Xiangyu Zhang）、任少卿（Shaoqing Ren）和孙剑（Jian Sun）在2015年的论文《Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification》中提出的。
 
-
-
 ## 参考
 
 [1] [Rectified Linear Units Improve Restricted Boltzmann Machines](https://www.cs.toronto.edu/~hinton/absps/reluICML.pdf)
@@ -104,7 +102,7 @@ PReLU是由何凯明（Kaiming He）、张翔（Xiangyu Zhang）、任少卿（S
 
 [3] [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

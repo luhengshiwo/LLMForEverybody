@@ -66,7 +66,7 @@ LLaMA-Factory 提供了一系列高阶功能，以支持复杂的大模型微调
 
 [1] [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

@@ -1,8 +1,8 @@
-神经网络的激活函数（五）门控系列 GLU、Swish和SwiGLU
+神经网络的激活函数（五）门控系列GLU、Swish和SwiGLU
 
 ## 1. GLU函数
 
-- 8
+![alt text](assest/神经网络的激活函数/8.png)
 
 GLU（Gated Linear Unit，门控线性单元）是一种在深度学习中用于增强模型表现的激活函数。GLU通过引入门控机制，使得模型能够选择性地通过信息，从而提高模型的表达能力和性能。
 
@@ -63,7 +63,7 @@ def sigmoid(x):
 
 ## 2. Swish函数
 
-- 9 
+![alt text](assest/神经网络的激活函数/9.png)
 
 Swish激活函数是一种在深度学习中广泛应用的激活函数，由Google Brain团队提出。Swish函数通过引入一个可学习的参数，使得激活函数在训练过程中能够自适应地调整，从而提高模型的性能。
 
@@ -80,7 +80,7 @@ $$\text{Swish}(x) = x \cdot \sigma(\beta x)$$
 
 在大多数情况下，$\beta$ 被设置为1，从而简化为：
 
-\[ \text{Swish}(x) = x \cdot \sigma(x) \]
+$$\text{Swish}(x) = x \cdot \sigma(x)$$
 
 ### 关键性质
 
@@ -220,7 +220,7 @@ SwiGLU激活函数结合了Swish和GLU的优点，通过引入门控机制和平
 
 [3] [Scaling Vision Transformers](https://arxiv.org/abs/2106.04560)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

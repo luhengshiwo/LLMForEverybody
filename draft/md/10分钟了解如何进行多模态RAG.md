@@ -1,7 +1,6 @@
-10分钟了解如何进行多模态RAG
+只会对文档进行RAG？10分钟了解如何进行多模态RAG
 
-阅读提示：阅读本文需要对RAG技术有基本的了解，如果你不清楚RAG，欢迎参考我之前的文章：
-
+- 阅读提示：阅读本文需要对RAG技术有基本的了解，如果你不清楚RAG，欢迎参考我之前的文章：
 
 很多RAG是建立在文本的基础上的，但是现实的情况下，我们有很多图片甚至视频数据，我们有时候也会想搭建图片/视频的多模态RAG，让我们可以基于图片/视频进行问答。
 
@@ -74,7 +73,7 @@ LLaVA是常用的LVLM，参见https://arxiv.org/pdf/2304.08485.
 
 [2] [LlaVA](https://arxiv.org/pdf/2304.08485 )
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

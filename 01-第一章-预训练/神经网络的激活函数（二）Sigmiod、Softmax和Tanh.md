@@ -6,7 +6,7 @@
 
 Sigmoid函数的概念可以追溯到19世纪，但在现代科学和工程中，它的广泛应用主要是从20世纪中期开始的。
 
-- 0
+![alt text](assest/神经网络的激活函数/0.png)
 
 ### 定义
 
@@ -35,7 +35,7 @@ $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 ## 2. Softmax函数
 Softmax函数是一种广泛应用于机器学习和深度学习中的激活函数，特别是在多分类任务中。它将一个包含任意实数的向量转换为一个概率分布。Softmax函数的提出和应用与统计力学和信息理论中的概念有关。
 
-- 1
+![alt text](assest/神经网络的激活函数/1.png)
 
 ### 2.1 定义
 
@@ -84,7 +84,7 @@ print(softmax)
 
 ## 3. Tanh函数
 
-- 2
+![alt text](assest/神经网络的激活函数/2.png)
 
 ### 3.1 定义
 Tanh函数（双曲正切函数）是一个常见的激活函数，广泛应用于神经网络和机器学习中。它的数学表达式为：
@@ -126,7 +126,7 @@ Tanh函数与双曲函数的研究可以追溯到18世纪。它在数学和工�
 
 [3] [Hyperbolic Tangent](https://mathworld.wolfram.com/HyperbolicTangent.html)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

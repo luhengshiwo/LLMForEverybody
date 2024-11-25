@@ -4,7 +4,7 @@ ELU（Exponential Linear Unit，指数线性单元）激活函数是为了进一
 
 ## 1. ELU函数
 
-- 6
+![alt text](assest/神经网络的激活函数/6.png)
 
 ELU通过在负区间引入指数函数来改进ReLU及其变体的性能。ELU旨在解决ReLU的一些固有问题，如Dying ReLU问题和输出均值偏移问题。
 
@@ -36,7 +36,7 @@ ELU在许多深度学习模型中得到了应用，特别是在卷积神经网�
 
 ## 2. SELU函数
 
-- 7
+![alt text](assest/神经网络的激活函数/7.png)
 
 SELU（Scaled Exponential Linear Unit，缩放指数线性单元）激活函数是ELU的一个变体，通过引入缩放因子来进一步改进神经网络的性能。SELU不仅解决了ReLU的一些问题，还引入了自归一化（self-normalizing）的特性，使得神经网络在训练过程中能够自动保持均值和方差的稳定。
 
@@ -72,7 +72,7 @@ SELU激活函数是在2017年由Günter Klambauer、Thomas Unterthiner、Andreas
 [2] [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

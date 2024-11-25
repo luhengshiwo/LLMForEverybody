@@ -1,4 +1,4 @@
-大模型微调之Soft prompts（二）Prompt Tuning
+大模型微调只会LoRA？大模型微调之Soft prompts（二）Prompt Tuning
 
 在2021年，大型语言模型的概念尚未完全清晰，人们对其的认识还处于探索阶段。在众多研究焦点中，Casual Language Model（仅解码器模型）只是其中之一。当时，GPT-3的问世引起了广泛关注。紧接着，在同年4月，谷歌推出了Prompt Tuning方法，最初在T5模型上进行实验——T5采用的是编码器-解码器架构。随后，Prompt Tuning在其他下游任务上也显示出了其有效性。
 
@@ -33,7 +33,7 @@ Prompt Tuning的核心思想在于prompt tokens有自己的参数，这些参数
 
 [1] [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

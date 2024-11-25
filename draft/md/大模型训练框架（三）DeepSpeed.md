@@ -217,7 +217,7 @@ Accelerate库提供了一个简单的接口来集成DeepSpeed，使得在PyTorch
 
 [2] [parallelism](https://huggingface.co/docs/transformers/v4.15.0/en/parallelism)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

@@ -1,4 +1,4 @@
-大模型微调之Soft prompts（一）综述
+大模型微调只会LoRA？大模型微调之Soft prompts（一）综述
 
 ## 1. Prompting
 训练大型预训练语言模型非常耗时且计算密集。随着模型规模的增长，人们越来越关注更高效的训练方法，比如Prompting。Prompting通过包含一段描述任务或展示任务示例的文本提示，为特定的下游任务调整一个冻结的预训练模型。有了Prompting，你可以避免为每个下游任务完全训练一个单独的模型，而是使用同一个冻结的预训练模型。这样做轻松得多，因为你可以用同一个模型处理多个不同的任务，而且训练和存储一小套提示参数比训练所有模型参数要高效得多。
@@ -7,7 +7,6 @@
 Soft Prompts（软提示）与Hard Prompts（硬提示）相对。软提示是可学习的连续向量，可以通过梯度优化方法针对特定数据集进行优化。这种方法不需要人工设计，可以自动优化以适应不同任务，计算效率高，支持多任务学习。然而，软提示不可读，无法解释为何选择这些向量。
 
 软提示的工作原理是在模型输入层增加可学习的投影层，将原始输入映射到提示信息所表示的语义空间中。投影层中的参数通过训练数据学习得到，使得提示信息能够更好地适应任务需求。
-
 
 ## 3. 主流方法
 
@@ -59,7 +58,7 @@ P-tuning的特点是将Decoder架构的模型变得适应Encoder架构的任务�
 
 [4] [Multitask Prompt Tuning Enables Parameter-Efficient Transfer Learning](https://arxiv.org/abs/2303.02861)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

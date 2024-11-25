@@ -1,9 +1,8 @@
 神经网络的激活函数（六）GELU和Mish
 
-
 ## 1. GELU
 
-- 10
+![alt text](assest/神经网络的激活函数/10.png)
 
 GELU（Gaussian Error Linear Unit，高斯误差线性单元）是一种在深度学习中广泛应用的激活函数。GELU通过高斯误差函数（即标准正态分布的累积分布函数）对输入进行平滑处理，从而提高模型的性能。GELU在许多任务中表现出色，特别是在自然语言处理（NLP）和计算机视觉任务中。
 
@@ -58,6 +57,8 @@ def gelu(x):
 ```
 
 ## Mish
+
+![alt text](assest/神经网络的激活函数/11.png)
 
 Mish激活函数是一种在深度学习中使用的非线性激活函数，由Diganta Misra在2019年提出。Mish激活函数通过平滑的非线性变换来增强模型的性能，并且在许多任务中表现出色，包括计算机视觉和自然语言处理。
 
@@ -116,7 +117,7 @@ def mish(x):
 [2] [Mish: A Self Regularized Non-Monotonic Neural Activation Function](https://arxiv.org/abs/1908.08681)
 
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

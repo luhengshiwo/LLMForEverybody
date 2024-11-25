@@ -105,7 +105,7 @@ Megatron-LM 的特点包括：
 
 [1] [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

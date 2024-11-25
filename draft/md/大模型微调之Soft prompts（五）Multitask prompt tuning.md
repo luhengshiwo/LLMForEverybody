@@ -1,4 +1,4 @@
-大模型微调之Soft prompts（五）Multitask prompt tuning
+大模型微调只会LoRA？大模型微调之Soft prompts（五）Multitask prompt tuning
 
 2023年5月，时隔2年后，soft-prompts又有了新方法，我第一次看到这个方法的时候，心里闪过一个词：一顿操作猛如虎。我的表情就是这样的：
 
@@ -32,7 +32,7 @@
 
 [1] [Multitask Prompt Tuning Enables Parameter-Efficient Transfer Learning](https://arxiv.org/abs/2303.02861)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 

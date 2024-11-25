@@ -71,7 +71,7 @@ PagedAttention 是 vLLM 背后的核心技术，vLLM 是我们的 LLM 推理和�
 
 [2] [vllm-project](https://github.com/vllm-project/vllm)
 
-## 欢迎关注我的GitHub和微信公众号，来不及解释了，快上船！
+## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
 
 [GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
 
