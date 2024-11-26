@@ -8,7 +8,7 @@
 
 视频可以看作很多帧图片的集合，所以我们可以从图片开始。
 
-- 01
+![alt text](assest/10分钟了解如何进行多模态RAG/1.PNG)
 
 注意到上图，紫色的是构建Vector DB的过程，天蓝色的是inference的过程。整个多模态的架构如下
 1. 处理多模态数据：得到image-text pair；
@@ -18,7 +18,7 @@
 
 可以看到这个架构和传统的RAG架构几乎一致，只是每一步的输入输出不一样
 
-- 0
+![alt text](assest/10分钟了解如何进行多模态RAG/0.PNG)
 
 ## 2. 数据处理
 我们需要将数据处理为 图片-文字 对，以方便输入到后续的Embedding model里。
@@ -39,7 +39,7 @@
 2. case2：我们先用语音转文字的工具，如whisper，生成字幕，再用case1的方案
 3. case3：使用case1的方式生成图片，再使用Large Vision-Language Model（LVLM）来生成字幕
 
--2
+![alt text](assest/10分钟了解如何进行多模态RAG/2.png)
 
 图片处理的方法：
 
@@ -48,17 +48,17 @@
 
 ## 3. Embedding
 
--3 
+![alt text](assest/10分钟了解如何进行多模态RAG/3.png)
 
 我们可以将上述的图片-文字对，输入到一个特殊的embedding模型，如Bridge tower 模型，这样可以得到这个pair的embedding，便于后续retrieval. 更多Bridge tower 模型的信息，参见这篇论文： [bridge tower](https://arxiv.org/abs/2206.08657)
 
--4
+![alt text](assest/10分钟了解如何进行多模态RAG/4.png)
 
 ## 4. 4. Retrieval，Prompt process & Response
 
 将用户的query进行retrieval后，我们会得到image-text pair， 我们将query，text，image处理好，输入上文提到的LVLM中，得到response。
 
--5
+![alt text](assest/10分钟了解如何进行多模态RAG/5.png)
 
 LLaVA是常用的LVLM，参见https://arxiv.org/pdf/2304.08485.
 
