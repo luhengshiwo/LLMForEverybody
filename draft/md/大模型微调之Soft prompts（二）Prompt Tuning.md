@@ -1,4 +1,4 @@
-大模型微调只会LoRA？大模型微调之Soft prompts（二）Prompt Tuning
+LoRA不是唯一选择，Soft Prompts微调大模型的奥秘（二）Prompt Tuning
 
 在2021年，大型语言模型的概念尚未完全清晰，人们对其的认识还处于探索阶段。在众多研究焦点中，Casual Language Model（仅解码器模型）只是其中之一。当时，GPT-3的问世引起了广泛关注。紧接着，在同年4月，谷歌推出了Prompt Tuning方法，最初在T5模型上进行实验——T5采用的是编码器-解码器架构。随后，Prompt Tuning在其他下游任务上也显示出了其有效性。
 
