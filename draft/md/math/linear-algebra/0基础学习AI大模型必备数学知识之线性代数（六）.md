@@ -19,7 +19,7 @@ link
 
 ## 参考
 
-[1] [machine-learning-linear-algebra](https://www.coursera.org/learn/machine-learning-linear-algebra/home/week/3)
+[1] [machine-learning-linear-algebra](https://www.coursera.org/learn/machine-learning-linear-algebra/home/week/4)
 
 
 ## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
