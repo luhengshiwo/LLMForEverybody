@@ -1,4 +1,4 @@
-大模型微调只会LoRA？大模型微调之Adapters（四）AdaLoRA
+LoRA不是唯一选择，Adapters微调大模型的奥秘（四）AdaLoRA
 
 
 ## 1.技术解读

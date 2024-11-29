@@ -1,4 +1,4 @@
-大模型微调只会LoRA？大模型微调之Soft prompts（四）P-Tuning
+LoRA不是唯一选择，Soft Prompts微调大模型的奥秘（四）P-Tuning
 
 P—Tuning是为了解决NLU任务而设计的Soft prompts方法，P-tuning添加了一个可训练的嵌入张量，这个张量可以被优化以找到更好的提示，并且它使用一个提示编码器（例如BiLSTM+MLP）来优化提示参数。
 
