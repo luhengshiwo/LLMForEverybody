@@ -4,7 +4,7 @@ P—Tuning是为了解决NLU任务而设计的Soft prompts方法，P-tuning添�
 
 ## 技术解读
 
-- 0
+![alt text](<assest/大模型微调之Soft prompts（四）P-tuning/0.png>)
 
 P-tuning有两个版本，P-tuning v1（2021年）和P-tuning v2（2023年）。P-tuning v1通过使用一个prompt encoder（例如BiLSTM+MLP）来优化prompt参数，但这种方法在一些复杂的自然语言理解（NLU）任务上效果不佳，且只在较大的模型规模上表现良好。
 

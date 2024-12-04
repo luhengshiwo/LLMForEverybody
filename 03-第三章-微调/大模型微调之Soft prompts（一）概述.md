@@ -14,7 +14,7 @@ Soft Prompts（软提示）与Hard Prompts（硬提示）相对。软提示是�
 
 Prompt Tuning[1](#refer-anchor-1)的核心思想在于prompt tokens有自己的参数，这些参数可以独立更新。这意味着你可以保持预训练模型的参数不变，只更新prompt tokens的嵌入向量的梯度。这样的结果与传统的训练整个模型的方法相当，并且随着模型大小的增加，Prompt Tuning的性能也会提升。
 
-- 0
+![alt text](<assest/大模型微调之Soft prompts（一）概述/0.png>)
 
 ### 3.2 Prefix-Tuning
 
@@ -22,7 +22,7 @@ Prefix-Tuning[2](#refer-anchor-2)是Prompt Tuning的一种变体，它通过在�
 
 Prefix-Tuning和Prompt Tuning最主要区别在于，Prefix-Tuning的前缀参数被插入到模型的所有层中，而Prompt Tuning只将提示参数添加到模型的embedding层。
 
--1
+![alt text](<assest/大模型微调之Soft prompts（一）概述/1.png>)
 
 ### 3.3 P-Tuning
 
@@ -30,7 +30,7 @@ P-tuning[3](#refer-anchor-3)主要是为自然语言理解（NLU）任务设计�
 
 P-tuning的特点是将Decoder架构的模型变得适应Encoder架构的任务，如NLU任务。
 
--2
+![alt text](<assest/大模型微调之Soft prompts（一）概述/2.png>)
 
 ### 3.4 Multitask prompt tuning
 
@@ -38,7 +38,7 @@ P-tuning的特点是将Decoder架构的模型变得适应Encoder架构的任务�
 
 简而言之：MPT先学习一个通用的提示，然后再根据具体任务进行调整。
 
--3
+![alt text](<assest/大模型微调之Soft prompts（一）概述/3.png>)
 
 ## 参考
 

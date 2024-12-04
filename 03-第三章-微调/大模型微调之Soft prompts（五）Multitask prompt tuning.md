@@ -2,13 +2,13 @@ LoRA不是唯一选择，Soft Prompts微调大模型的奥秘（五）Multitask 
 
 2023年5月，时隔2年后，soft-prompts又有了新方法，我第一次看到这个方法的时候，心里闪过一个词：一顿操作猛如虎。我的表情就是这样的：
 
-- 1
+![alt text](<assest/大模型微调之Soft prompts（五）Multitask prompt tuning/1.png>)
 
 要不是为了这个系列的完备性，也许我永远不会看这篇paper！我建议大家直接看直观解析这一节。
 
 ## 技术解读
 
-- 0
+![alt text](<assest/大模型微调之Soft prompts（五）Multitask prompt tuning/0.png>)
 
 多任务提示调整 (MPT) 从多种任务类型的数据中学习单个提示，这些提示可共享给不同的目标任务。其他现有方法为每个需要检索或聚合以适应目标任务的任务学习单独的软提示。MPT 包含两个阶段：
 

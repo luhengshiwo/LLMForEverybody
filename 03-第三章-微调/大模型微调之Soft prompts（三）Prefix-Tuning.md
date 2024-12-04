@@ -4,7 +4,7 @@ LoRA不是唯一选择，Soft Prompts微调大模型的奥秘（三）Prefix-Tun
 
 ## 技术解读
 
-- 0
+![alt text](<assest/大模型微调之Soft prompts（三）Prefix-tuning/0.png>)
 
 Prefix Tuning是一种用于自然语言生成任务的参数高效微调技术。它的核心思想是在模型的输入序列前添加一系列连续的任务特定向量，这些向量被称为前缀（prefix）。这些前缀向量是可训练的，而预训练语言模型（PLM）的其他参数则保持固定。
 
