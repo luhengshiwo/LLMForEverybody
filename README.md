@@ -175,6 +175,16 @@
 
 [大模型的参数高效微调（PEFT），LoRA微调以及其它](03-第三章-微调/大模型的参数高效微调（PEFT），LoRA微调以及其它.md)
 
+[大模型微调之Soft prompts（一）概述](<03-第三章-微调/大模型微调之Soft prompts（一）概述.md>)
+
+[大模型微调之Soft prompts（二）Prompt Tuning](<03-第三章-微调/大模型微调之Soft prompts（二）Prompt Tuning.md>)
+
+[大模型微调之Soft prompts（三）Prefix-Tuning](<03-第三章-微调/大模型微调之Soft prompts（三）Prefix-Tuning.md>)
+
+[大模型微调之Soft prompts（四）P-Tuning](<03-第三章-微调/大模型微调之Soft prompts（四）P-Tuning.md>)
+
+[大模型微调之Soft prompts（五）Multitask prompt tuning](<03-第三章-微调/大模型微调之Soft prompts（五）Multitask prompt tuning.md>)
+
 ## 第四章-大模型量化
 
 **[⬆ 一键返回目录](#目录)**
