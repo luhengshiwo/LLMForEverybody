@@ -185,6 +185,14 @@
 
 [大模型微调之Soft prompts（五）Multitask prompt tuning](<03-第三章-微调/大模型微调之Soft prompts（五）Multitask prompt tuning.md>)
 
+[大模型微调之Adapters（一）概述](03-第三章-微调/大模型微调之Adapters（一）概述.md)
+
+[大模型微调之Adapters（二）LoRA](03-第三章-微调/大模型微调之Adapters（二）LoRA.md)
+
+[大模型微调之Adapters（三）QLoRA](03-第三章-微调/大模型微调之Adapters（三）QLoRA.md)
+
+[大模型微调之Adapters（四）AdaLoRA](03-第三章-微调/大模型微调之Adapters（四）AdaLoRA.md)
+
 ## 第四章-大模型量化
 
 **[⬆ 一键返回目录](#目录)**
