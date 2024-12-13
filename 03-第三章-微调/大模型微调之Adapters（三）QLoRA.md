@@ -3,7 +3,7 @@ LoRA不是唯一选择，Adapters微调大模型的奥秘（三）QLoRA
 
 ## 1.技术解读
 
-- 0
+![alt text](assest/大模型微调之Adapters（三）QLoRA/0.png)
 
 QLoRA（Quantized Low-Rank Adaptation）是一种针对大型预训练语言模型（LLM）的高效微调技术。它结合了量化和低秩适配（LoRA）两种技术，旨在减少模型微调过程中的内存占用和计算成本，同时尽量保持模型性能。
 

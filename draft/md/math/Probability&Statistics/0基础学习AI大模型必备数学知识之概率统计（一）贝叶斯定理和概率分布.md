@@ -212,6 +212,7 @@ $$Var(X) = \sigma^2$$
 
 **你是否考虑过：为什么正态分布是自然界中最常见的分布？** 关注我后面继续分享：中心极限定理 Central Limit Theorem.
 
+
 ## 参考
 
 <div id="refer-anchor-1"></div>
