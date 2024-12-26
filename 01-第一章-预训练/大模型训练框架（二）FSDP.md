@@ -13,7 +13,7 @@ FSDP 可以看作是微软 Deepspeed 框架中提出的三种级别的 ZERO 算�
 
 ***ZeRO***，全称为"Zero Redundancy Optimizer"，是由微软研究院提出的一种用于优化分布式训练的内存管理技术。它旨在解决在大规模分布式训练中遇到的内存瓶颈问题，特别是在训练大型深度学习模型时。ZeRO 通过减少冗余数据来优化内存使用，使得在有限的硬件资源下训练更大的模型成为可能。
 
-- 0
+![alt text](assest/大模型训练框架（二）FSDP/0.png)
 
 ## 2. 解释
 
@@ -88,7 +88,7 @@ ZeRO 有三种级别的算法，分别是 `ZERO-1`、`ZERO-2` 和 `ZERO-3`。`ZE
 
 ## 5. FSDF PyTorch
 
-- 1
+![alt text](assest/大模型训练框架（二）FSDP/1.png)
 
 在PyTorch中使用FSDP可以有效地训练大型模型，特别是在显存或内存受限的情况下。FSDP是一种数据并行技术，它将模型的参数、梯度和优化器状态跨多个设备进行分片。以下是基本步骤：
 
@@ -204,7 +204,7 @@ use_cpu: false
 
 `tips`: 2024年9月13号，在 Accelerate 开发趋于稳定将近一年后的,正式发布了 Accelerate 1.0.0 —— Accelerate 的第一个发布候选版本.
 
-- 2
+![alt text](assest/大模型训练框架（二）FSDP/2.png)
 
 以下是各种框架对并行策略（截至2024/10/12）的支持情况：
 

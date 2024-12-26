@@ -4,15 +4,15 @@ Megatron-LM[1](#refer-anchor-1) 是由 NVIDIA 推出的一个用于训练大型�
 
 `一个小tips`：**transformer** 也可以是**变形金刚**，而 **megatron** 是**威震天**。
 
-- 00
+![alt text](assest/大模型训练框架（四）Megatron-LM/00.png)
 
-- 0
+![alt text](assest/大模型训练框架（四）Megatron-LM/0.png)
 
 ## 1. Megatron-LM特点
 
 Megatron-LM 通过数据并行、张量并行和流水线并行来复现大型模型如 GPT-3。它综合应用了多种并行策略来训练大型语言模型，包括张量并行（Tensor Parallelism）、流水线并行（Pipeline Parallelism）和数据并行（Data Parallelism）。这些技术帮助解决了显存限制、计算挑战和并行策略挑战等问题，使得在有限的硬件资源下训练更大的模型成为可能。
 
-- 1
+![alt text](assest/大模型训练框架（四）Megatron-LM/1.png)
 
 Megatron-LM 的特点包括：
 

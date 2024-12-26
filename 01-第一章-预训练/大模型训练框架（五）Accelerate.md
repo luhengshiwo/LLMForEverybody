@@ -28,7 +28,7 @@ Accelerate只需添加四行代码，即可在任何分布式配置中运行相�
 
 ## 2. Accelerate的特点
 
-- 0
+![alt text](assest/大模型训练框架（五）Accelerate/0.png)
 
 1. **分布式训练支持**：Accelerate 支持在单个节点或多个节点上进行分布式训练，包括多CPU、多GPU和TPU设置。它抽象出了与分布式训练相关的样板代码，使您可以专注于训练逻辑而不必担心通信和同步问题。
 
@@ -52,15 +52,15 @@ Accelerate 提供了一种简单且灵活的方式来加速和扩展 PyTorch 训
 
 1. **与 PyTorch Fully Sharded Data Parallel (FSDP) 的集成**：
    FSDP 是 PyTorch 中的一种数据并行技术，它允许模型的参数在多个 GPU 上进行分片存储，从而减少单个 GPU 的内存压力。Accelerate 提供了对 FSDP 的支持，使得用户可以更容易地在 PyTorch 中实现 FSDP 数据并行。
-- 
+ 
 
 2. **与 DeepSpeed 的集成**：
    Accelerate 允许用户通过 DeepSpeedPlugin 来利用 DeepSpeed 的功能，如 ZeRO 优化技术。用户可以在 Accelerate 配置文件中指定 DeepSpeed 的配置，如 `zero_stage` 和 `gradient_accumulation_steps`，以及是否使用混合精度训练等。这样，用户可以在不改变原有 PyTorch 训练代码的情况下，通过 Accelerate 来实现 DeepSpeed 的优化策略。
-- 
+ 
 
 3. **与 Megatron-LM 的集成**：
    Megatron-LM 是一个用于训练大规模 Transformer 模型的库，它支持模型并行和数据并行。Accelerate 提供了对 Megatron-LM 的支持，允许用户在 Megatron-LM 的基础上使用 Accelerate 的分布式训练功能。
-- 
+ 
 
 截至本文完稿时（2024/10/14），Accelerate对其它框架的支持主要在DP上，因为Accelerate暂时没有 PP 和 TP。
 
