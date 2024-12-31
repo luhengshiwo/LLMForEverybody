@@ -37,7 +37,7 @@ PageAttention 的内存共享功能大大降低了复杂采样算法（例如par
 
 PagedAttention 是 vLLM 背后的核心技术，vLLM 是我们的 LLM 推理和服务引擎，支持多种模型，具有高性能和易于使用的界面。
 
-2. vLLM的其它特性
+## 2. vLLM的其它特性
 
 除了**PagedAttention算法**，vLLM还通过一系列优化措施，使得大型语言模型在生产环境中得以高效部署。以下是vLLM的一些关键特性：
 
