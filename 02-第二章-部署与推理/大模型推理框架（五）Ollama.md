@@ -16,7 +16,7 @@ Ollama是一个开源的大型语言模型（LLM）服务工具，它旨在简�
 
 官网下载Ollama  https://ollama.com/
 
-1
+![alt text](assest/大模型推理框架（五）Ollama/1.png)
 
 ### 2. 安装Ollama
 一路点点点，安装完成。
@@ -24,19 +24,17 @@ Ollama是一个开源的大型语言模型（LLM）服务工具，它旨在简�
 ### 3. 下载模型
 在Ollama的模型仓库https://ollama.com/library，查找你喜欢的模型，为了测试方便我们可以找一个tiny点的大模型
 
-2
+![alt text](assest/大模型推理框架（五）Ollama/2.png)
 
 我们可以使用qwen2 0.5b的模型，这个模型用了4bit的量化，模型大小只有352MB。
 
-3
+![alt text](assest/大模型推理框架（五）Ollama/3.png)
 
 在终端cmd中，输入拉取模型的命令：
 
 > ollama pull qwen2:0.5b
 
-4
-
-
+![alt text](assest/大模型推理框架（五）Ollama/4.png)
 
 ### 4. 启动Ollama
 
@@ -44,7 +42,7 @@ Ollama是一个开源的大型语言模型（LLM）服务工具，它旨在简�
 
 > ollama run qwen2:0.5b
 
-5
+![alt text](assest/大模型推理框架（五）Ollama/5.png)
 
 至此，你的电脑里已经有了一个本地大模型了，你也可以拉取其它更大的模型来提升模型效果。
 
@@ -55,7 +53,7 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 ### 1. 下载ChatBox
 在官网下载chatbox https://chatboxai.app/zh#download
 
-6
+![alt text](assest/大模型推理框架（五）Ollama/6.png)
 
 ### 2. 安装ChatBox
 一路点点点，安装完成。
@@ -63,11 +61,11 @@ Chatbox AI 是一款 AI 客户端应用和智能助手，支持众多先进的 A
 ### 3. 配置ChatBox
 在chatbox左下角找到设置
 
-7
+![alt text](assest/大模型推理框架（五）Ollama/7.png)
 
 模型提供方选ollama
 
-8
+![alt text](assest/大模型推理框架（五）Ollama/8.png)
 
 api设置为: http://localhost:11434
 

@@ -6,7 +6,7 @@
 
 Fast Transformer 已不再更新！！
 
-- 0 
+![alt text](assest/大模型推理框架（四）TensorRT-LLM/0.png)
 
 TensorRT-LLM 可以视为 TensorRT 和 FastTransformer 的结合体，旨在为大模型推理加速而生。它不仅包含了 FastTransformer 对 Transformer 做的 attention 优化、softmax 优化、算子融合等方式，还引入了众多的大模型推理优化特性
 
@@ -27,18 +27,18 @@ TensorRT-LLM 可以视为 TensorRT 和 FastTransformer 的结合体，旨在为�
 
 量化技术是LLM领域中用于优化模型的一种方法，特别是在模型部署到资源受限的环境（如移动设备、嵌入式系统或需要低延迟的服务器）时。量化的基本思想是将模型中的权重和激活值从浮点数（如32位浮点数，FP32）转换为低精度的表示，比如8位整数（INT8）或更低位的格式.
 
-- 1
+![alt text](assest/大模型推理框架（四）TensorRT-LLM/1.png)
 
 2. In-flight Batching
 也称Continuous Batching，是一种提高LLM推理效率的技术。它通过连续处理多个输入样本，减少了推理过程中的空闲时间，提高了计算效率和吞吐量。在LLM推理中，通过批处理多个输入样本，可以更有效地利用GPU的计算资源，减少推理过程中的等待时间，提高整体的推理速度。
 
--2
+![alt text](assest/大模型推理框架（四）TensorRT-LLM/2.png)
 
 3. Attention
 
 `KV Cache` 采用以空间换时间的思想，复用上次推理的 KV 缓存，可以极大降低内存压力、提高推理性能，而且不会影响任何计算精度。
 
-- 3
+![alt text](assest/大模型推理框架（四）TensorRT-LLM/3.png)
 
 decoder架构里面最主要的就是 transformer 中的 self-attention 结构的堆叠，KV-cache的实质是用之前计算过的 key-value 以及当前的 query 来生成下一个 token。
 
@@ -52,7 +52,7 @@ prefill指的是生成第一个token的时候，kv是没有任何缓存的，需
 
 但MQA的缺点就是损失了精度，所以研究人员又想了一个折中方案：不是所有的query共享一组KV，而是一个group的guery共享一组KV，这样既降低了KV cache，又能满足精度。这就有了`Group-Query Attention(GQA)`。
 
-- 4
+![alt text](assest/大模型推理框架（四）TensorRT-LLM/4.PNG)
 
 4. Graph Rewriting
 
