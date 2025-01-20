@@ -4,13 +4,13 @@ Parameter-Efficient Fine-Tuning (PEFT) 是一种微调大型预训练模型（�
 
 PEFT的主要方法 见  Adapters 和 Soft prompts 的链接。
 
-- 0
+![alt text](assest/大模型微调框架（二）Huggingface-PEFT/0.png)
 
 ## 2. PEFT库
 
 PEFT（参数高效微调）是一个库，用于高效地将大型预训练模型适配到各种下游应用，而无需微调模型的所有参数，因为这样做成本过高。PEFT 方法仅微调少量（额外）模型参数，同时产生与完全微调模型相当的性能。这使得在消费硬件上训练和存储大型语言模型 (LLM) 变得更加容易。
 
-- 1 
+![alt text](assest/大模型微调框架（二）Huggingface-PEFT/1.png)
 
 PEFT 与 Transformers、Diffusers 和 Accelerate 库集成，提供更快、更简单的方法来加载、训练和使用大型模型进行推理。
 

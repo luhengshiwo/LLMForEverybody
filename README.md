@@ -181,6 +181,16 @@
 
 [DevOps，AIOps，MLOps，LLMOps，这些Ops都是什么？](<02-第二章-部署与推理/DevOps，AIOps，MLOps，LLMOps，这些Ops都是什么？.md>)
 
+[大模型推理框架（一）综述](02-第二章-部署与推理/大模型推理框架（一）综述.md)
+
+[大模型推理框架（二）vLLM](02-第二章-部署与推理/大模型推理框架（二）vLLM.md)
+
+[大模型推理框架（三）Text generation inference (TGI)](<02-第二章-部署与推理/大模型推理框架（三）Text generation inference (TGI).md>)
+
+[大模型推理框架（四）TensorRT-LLM](02-第二章-部署与推理/大模型推理框架（四）TensorRT-LLM.md)
+
+[大模型推理框架（五）Ollama](02-第二章-部署与推理/大模型推理框架（五）Ollama.md)
+
 ## 第三章-大模型微调
 
 **[⬆ 一键返回目录](#目录)**
@@ -206,6 +216,12 @@
 [大模型微调之Adapters（三）QLoRA](03-第三章-微调/大模型微调之Adapters（三）QLoRA.md)
 
 [大模型微调之Adapters（四）AdaLoRA](03-第三章-微调/大模型微调之Adapters（四）AdaLoRA.md)
+
+[大模型微调框架（一）综述](03-第三章-微调/assest/大模型微调框架（一）综述)
+
+[大模型微调框架（二）Huggingface-PEFT](03-第三章-微调/assest/大模型微调框架（二）Huggingface-PEFT)
+
+[大模型微调框架（三）Llama-Factory](03-第三章-微调/assest/大模型微调框架（三）Llama-Factory)
 
 ## 第四章-大模型量化
 

@@ -1,6 +1,6 @@
 很多人第一次接触大模型微调，是从LLama-Factory 的 LoRA开始的，类似于之前数据科学家从Kaggle的泰坦尼克号生存预测开始一样，LLama-Factory的LoRA是一个很好的开始。
 
-- 3
+![alt text](assest/大模型微调框架（三）Llama-Factory/3.png)
 
 ## 1. Web-UI
 
@@ -33,7 +33,7 @@ LLaMA Factory 提供了一个用户友好的可视化界面（WebUI），使得�
 **参数配置**：
    - WebUI 允许用户通过简单的拖放和参数调整来优化模型，使得即使是不熟悉编程的用户也能轻松参与模型优化的过程。
 
-- 0
+![alt text](assest/大模型微调框架（三）Llama-Factory/webui_0.webp)
 
 ## 2.  LoRA 之外
 
