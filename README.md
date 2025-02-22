@@ -113,6 +113,8 @@
 
 [为什么会发展出Multi-Query-Attention和Group-Query-Attention](<01-第一章-预训练/为什么会发展出Multi-Query-Attention和Group-Query-Attention.md>)
 
+[一文了解Deepseek系列中的MLA技术](01-第一章-预训练/一文了解Deepseek系列中的MLA技术.md)
+
 ### 位置编码
 
 [什么是大模型的位置编码Position-Encoding](<01-第一章-预训练/什么是大模型的位置编码Position-Encoding.md>)
