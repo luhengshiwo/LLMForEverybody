@@ -260,7 +260,7 @@ TTFT = Prefilling_FLOPs / GPU_FLOPS
 
 计算得Prefilling阶段总计算量: 65.28 TFLOPs
 
-理论TTFT = 65.28TFLOPs/148TFLOPs = 441ms
+理论TTFT = 65.28TFLOPs/148TFLOPS = 441ms
 
 但是GPU的使用率一般没办法跑满60%左右，所以延迟会更高些。
 
