@@ -50,14 +50,14 @@ $Var(X) = E[(X - E(X))^2] = \int_{-\infty}^{\infty} (x - E(X))^2 \cdot f(x) \, d
 $Skewness = \frac{E[(X - \mu)^3]}{\sigma^3}$
 其中，$\mu$ 是均值，$\sigma$ 是标准差。
 
-！7
+![alt text](Probability&Statistics/7.png)
 
 ### 峰度（Kurtosis）
 峰度是描述分布“尖峭”或“平坦”程度的统计量。它衡量了分布顶部的尖锐程度和尾部的厚度。峰度与正态分布相比较，正态分布的峰度为0。如果一个分布的峰度大于0，那么它比正态分布更尖锐，称为尖顶峰；如果峰度小于0，那么它比正态分布更平坦，称为平顶峰。峰度的计算公式为：
 $Kurtosis = \frac{E[(X - \mu)^4]}{\sigma^4} - 3$
 其中，$\mu$ 是均值，$\sigma$ 是标准差。
 
-！8
+![alt text](Probability&Statistics/8.png)
 
 ### 为什么需要偏度和峰度
 1. **更全面的分布描述**：期望和方差只能描述分布的中心位置和离散程度，而偏度和峰度提供了关于分布形状的额外信息，使得我们能够更全面地理解数据的分布特性。
@@ -87,7 +87,7 @@ $P(X \leq Q(p)) = p$
    - 第三四分位数（Q3）：$p = 0.75$ 时的分位数，即 $Q(0.75)$。
 3. **百分位数（Percentiles）**：百分位数是 $p$ 为0.01到0.99之间的分位数。例如，第90百分位数是 $p = 0.90$ 时的分位数，即 $Q(0.90)$。
 
-！9
+![alt text](Probability&Statistics/9.png)
 
 ### 计算方法
 对于一个给定的数据集，计算分位数的步骤如下：
@@ -141,8 +141,7 @@ $P(X \leq Q(p)) = p$
 8. **标记异常值**：
    - 异常值通常用点或星号标记，它们是超出触须范围的数据点。
 
-！10
-
+![alt text](Probability&Statistics/10.png)
 
 #### Python（使用matplotlib和seaborn库）：
 ```python
@@ -168,7 +167,7 @@ $\hat{f}(x) = \frac{1}{n} \sum_{i=1}^{n} K\left(\frac{x - x_i}{h}\right)$
 - $K(\cdot)$ 是核函数，它是一个非负的、对称的函数，且满足 $\int K(u) \, du = 1$。
 - $h$ 是带宽（Bandwidth），它是一个正数，控制着核函数的宽度，从而影响着估计的平滑程度。
 
-！11
+![alt text](Probability&Statistics/11.png)
 
 ### 常用的核函数
 1. **高斯核（Gaussian Kernel）**：
@@ -201,16 +200,17 @@ $\hat{f}(x) = \frac{1}{n} \sum_{i=1}^{n} K\left(\frac{x - x_i}{h}\right)$
 
 小提琴图（Violin Plot）是一种数据可视化图表，它结合了箱线图和核密度图的特点，用于展示数据的分布情况.
 
-！12
+![alt text](Probability&Statistics/12.png)
 
-！13
+![alt text](Probability&Statistics/13.png)
 
 ### 3.5 QQ图 Quantile-Quantile Plot
 
 QQ图（Quantile-Quantile Plot）是一种用于检验数据是否符合某种分布的图表。它通过比较数据的分位数与理论分位数之间的关系，来判断数据是否符合某种分布。
 
 QQ图通过比较样本数据的分位数与一个理论分布（通常是正态分布）的分位数来检验数据的分布情况。具体来说，它将样本数据的分位数（称为经验分位数）与理论分布的相应分位数（称为理论分位数）进行配对，并在散点图上表示这些配对点。
-！14
+
+![alt text](Probability&Statistics/14.png)
 
 如果样本数据服从特定的理论分布，那么QQ图上的点应该近似地落在一条直线上，这条直线的斜率等于样本的标准差，截距等于样本的均值。
 
