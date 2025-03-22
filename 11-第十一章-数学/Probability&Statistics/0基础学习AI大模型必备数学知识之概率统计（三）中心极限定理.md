@@ -17,7 +17,7 @@ AI是理科+工科的交叉学科，牢固的数学知识有助于理解算法�
 
 你肯定了解过正态分布，也知道它是自然界中最常见的分布，甚至它的英文都是'Normal'，比如人的身高、体重、智商等等，都符合正态分布。
 
--15
+![alt text](Probability&Statistics/15.png)
 
 那你知道为什么人的身高、体重、智商等符合正态分布吗？因为：中心极限定理！Central Limit Theorem
 
@@ -29,7 +29,7 @@ AI是理科+工科的交叉学科，牢固的数学知识有助于理解算法�
 
 大数定律（Law of Large Numbers）是概率统计中的一个重要定理，它描述了随机变量序列的均值在重复试验中趋于其期望值的现象。
 
--16
+![alt text](Probability&Statistics/16.png)
 
 大数定律分为弱大数定律和强大数定律两种。
 
@@ -50,19 +50,19 @@ AI是理科+工科的交叉学科，牢固的数学知识有助于理解算法�
 
 投1次，可能的情况是0、1,概率为0.5、0.5；
 
--17
+![alt text](Probability&Statistics/17.png)
 
 投2次，可能的情况是0、1、2,概率为0.25、0.5、0.25；
 
--18
+![alt text](Probability&Statistics/18.png)
 
 投3次，可能的情况是0、1、2、3,概率为0.125、0.375、0.375、0.125；
 
--19
+![alt text](Probability&Statistics/19.png)
 
 随着投硬币的次数增加，分布图像将趋于正态分布
 
--20
+![alt text](Probability&Statistics/20.png)
 
 
 ### 连续型随机变量的中心极限定理 CLT for Continuous Random Variables
@@ -71,19 +71,19 @@ AI是理科+工科的交叉学科，牢固的数学知识有助于理解算法�
 
 采样打一次电话的分布：
 
--21
+![alt text](Probability&Statistics/21.png)
 
 采样打两次电话的等待时间和的分布：
 
--22
+![alt text](Probability&Statistics/22.png)
 
 采样打三次电话的等待时间和的分布：
 
--23
+![alt text](Probability&Statistics/23.png)
 
 随着采样次数的增加，分布图像将趋于正态分布
 
--24
+![alt text](Probability&Statistics/24.png)
 
 ## 4. 中心极限定理的历史
 
@@ -101,10 +101,3 @@ AI是理科+工科的交叉学科，牢固的数学知识有助于理解算法�
 [1] [robability-and-statistics](https://www.coursera.org/learn/machine-learning-probability-and-statistics/home/week/3)
 
 [2] [中心极限定理](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86)
-
-
-## 欢迎关注我的GitHub和微信公众号[真-忒修斯之船]，来不及解释了，快上船！
-
-[GitHub: LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
-
-仓库上有原始的Markdown文件，完全开源，欢迎大家Star和Fork！
