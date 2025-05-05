@@ -260,6 +260,14 @@
 
 **[⬆ 一键返回目录](#目录)**
 
+[如何设计智能体架构：参考OpenAI还是Anthropic?](07-第七章-Agent/如何设计智能体架构：参考OpenAI还是Anthropic?.md)
+
+[LLM应用落地指南之应用的分类(一)](07-第七章-Agent/LLM应用落地指南之应用的分类(一).md)
+
+[LLM应用落地之架构设计（二）](07-第七章-Agent/LLM应用落地之架构设计（二）.md)
+
+[LLM应用落地之Text-2-SQL（三）](07-第七章-Agent/LLM应用落地之Text-2-SQL（三）.md)
+
 [开发大模型or使用大模型](07-第七章-Agent/开发大模型or使用大模型.md)
 
 [Agent设计范式与常见框架](07-第七章-Agent/Agent设计范式与常见框架.md)
