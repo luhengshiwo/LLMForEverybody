@@ -353,6 +353,17 @@
 [0基础学习AI大模型必备数学知识之概率统计（三）中心极限定理](11-第十一章-数学/Probability&Statistics/0基础学习AI大模型必备数学知识之概率统计（三）中心极限定理.md)
 
 
+## 第十二章-企业与个人思考
+
+**[⬆ 一键返回目录](#目录)**
+
+### 企业
+
+[GenAI浪潮下的终极战场：如何从模仿者蜕变为“平台掌控者”？](12-第十二章-企业与个人思考/GenAI浪潮下的终极战场：如何从模仿者蜕变为“平台掌控者”？.md)
+
+### 个人
+
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=luhengshiwo/LLMForEverybody&type=Date)](https://star-history.com/#luhengshiwo/LLMForEverybody&Date)
