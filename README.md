@@ -1,40 +1,30 @@
 
-# 立马offer 💡 AI 不淘汰，offer 立马来！
+# LearnLLM.AI | Learning LLM is all you need. 
 
-> 🌐 [立即体验](https://llamaoffer.com/) | 大模型岗位求职加速器
+![LearnLLM.AI](pic/common/pr/learnllm.png)
 
-## 网站简介
+> 👉 点击这里 [LearnLLM.AI](https://learnllm.ai?ref=github)
+| 学习大模型，从这里开始
 
-**立马offer** —— 你的大模型面试八股助手！
+## LearnLLM.AI 核心亮点
 
-我们深度洞察大模型相关岗位面试的考察重点，用系统化、结构化的刷题，快速攻克大模型面试核心问题，缩短八股准备时间，直达心仪 Offer。
+- **精选大模型面试题库** ：覆盖从基础到前沿的实战题目，助您高效备战求职，抓住职业机遇；
 
----
+- **系统化论文研读** ：从2017年Transformer奠基性论文出发，按清晰的知识体系梳理技术演进，适合不同基础的开发者循序渐进地深度提升。
 
-## 核心亮点
+## 专属优惠码
 
-- **系统化刷题，结构化成长**  
-  八股题库，专为大模型岗位设计，覆盖预训练、微调、RAG、Agent等核心面试知识点。  
-  题目由行业专家与大厂面试官联合打造，紧跟最新技术趋势。  
-  结构化学习路径，科学规划，专属徽章激励，见证每一步成长。
+我们为Github用户准备了限时专属优惠码：***GITHUB50*** ，期待在LearnLLM.AI与您继续同行，共同成长！
 
-- **专注大模型求职拿 offer**  
-  系统化备考，少走弯路。持续更新题库，覆盖最新大模型技术，确保你的知识始终领先。  
-  品牌释义：llama+offer，谐音“立马 offer”，寓意助你立马拿到心仪 offer。
+如有疑问，欢迎随时联系我们。
 
-- **注册福利**  
-  免费会员，畅享全部功能：现在注册，即送一个月会员时长，解锁全部题目，系统化刷题，高效准备，快速拿 offer。  
-  刷题方法：统一采用选择题模式，鼓励简答练习，提升答题思路和表达能力。  
-  建议科学上网，体验更流畅。
+Happy Learning！
+
+LearnLLM.AI 团队
 
 ---
 
-👉 [立即体验 →](https://llamaoffer.com/)  
-AI 不淘汰，offer 立马来！
-
----
-
-# LLM For Everybody
+# LearnLLM.AI | Learning LLM is all you need.
 <p> 
 <a href="https://github.com/luhengshiwo/LLMForEverybody/stargazers">
 <img src="pic/common/svg/github.svg" > </a>
@@ -386,15 +376,14 @@ AI 不淘汰，offer 立马来！
 [0基础学习AI大模型必备数学知识之概率统计（三）中心极限定理](11-第十一章-数学/Probability&Statistics/0基础学习AI大模型必备数学知识之概率统计（三）中心极限定理.md)
 
 
-## 第十二章-企业与个人思考
 
-**[⬆ 一键返回目录](#目录)**
+## LearnLLM.AI 
 
-### 企业
+🌐 点击这里 [LearnLLM.AI](https://learnllm.ai?ref=github) | 学习大模型，从这里开始
 
-[GenAI浪潮下的终极战场：如何从模仿者蜕变为“平台掌控者”？](12-第十二章-企业与个人思考/GenAI浪潮下的终极战场：如何从模仿者蜕变为“平台掌控者”？.md)
+Learning LLM is all you need.
 
-### 个人
+![LearnLLM.AI](pic/common/pr/learnllm.png)
 
 
 ## Star History
