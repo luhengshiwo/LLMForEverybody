@@ -3,8 +3,7 @@
 
 ![LearnLLM.AI](pic/common/pr/learnllm.png)
 
-> 👉 点击这里 [LearnLLM.AI](https://learnllm.ai?ref=github)
-| 学习大模型，从这里开始
+# 👉 点击这里 [LearnLLM.AI](https://learnllm.ai?ref=github) | 学习大模型，从这里开始
 
 ## LearnLLM.AI 核心亮点
 
@@ -377,9 +376,9 @@ LearnLLM.AI 团队
 
 
 
-## LearnLLM.AI 
+# LearnLLM.AI 
 
-🌐 点击这里 [LearnLLM.AI](https://learnllm.ai?ref=github) | 学习大模型，从这里开始
+# 🌐 点击这里 [LearnLLM.AI](https://learnllm.ai?ref=github) | 学习大模型，从这里开始
 
 Learning LLM is all you need.
 
