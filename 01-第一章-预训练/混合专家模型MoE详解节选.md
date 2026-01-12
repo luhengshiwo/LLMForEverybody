@@ -1,6 +1,6 @@
 混合专家模型 (MoE) 详解（节选）
 
-本文节选自https://huggingface.co/blog/zh/moe，原文标题为《混合专家模型（MoE）详解》。为了方便速读，我选取了关键的段落。
+本文节选自 https://huggingface.co/blog/zh/moe  ，原文标题为《混合专家模型（MoE）详解》。为了方便速读，我选取了关键的段落。
 
 随着 [Mixtral 8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) 的推出，一种称为混合专家模型 (Mixed Expert Models，简称 MoEs) 的 Transformer 模型在开源人工智能社区引起了广泛关注。
 
