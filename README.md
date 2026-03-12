@@ -2,10 +2,21 @@
 <img src="pic/common/pr/learnllm.png" alt="LearnLLM.AI" width="600">
 </p>
 <p align="center"> 
-<a href="https://mp.weixin.qq.com/s/cV6v7yGmwYa2WwNDZjLPiQ"> <img src="pic/common/svg/wechat.svg" > </a>
-<a href="https://www.zhihu.com/people/luhengshiwo"> <img src="pic/common/svg/zhihu.svg"> </a>
-<a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"> <img src="pic/common/svg/csdn.svg"> </a>
-<a href="https://juejin.cn/user/3824524390049531"> <img src="pic/common/svg/juejin.svg"> </a>
+  <a href="https://mp.weixin.qq.com/s/cV6v7yGmwYa2WwNDZjLPiQ" style="text-decoration: none;">
+    <img src="pic/common/svg/wechat.svg" alt="微信公众号" height="20">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.zhihu.com/people/luhengshiwo" style="text-decoration: none;">
+    <img src="pic/common/svg/zhihu.svg" alt="知乎" height="20">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343" style="text-decoration: none;">
+    <img src="pic/common/svg/csdn.svg" alt="CSDN" height="20">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://juejin.cn/user/3824524390049531" style="text-decoration: none;">
+    <img src="pic/common/svg/juejin.svg" alt="掘金" height="20">
+  </a>
 </p>
 
 <p align="center"><strong>Learning LLM is all you need.</strong></p>
