@@ -3,11 +3,11 @@
 </p>
 <p align="center"> 
   <a href="https://mp.weixin.qq.com/s/cV6v7yGmwYa2WwNDZjLPiQ"><img src="pic/common/svg/wechat.svg" alt="微信公众号" height="20"></a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://www.zhihu.com/people/luhengshiwo"><img src="pic/common/svg/zhihu.svg" alt="知乎" height="20"></a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"><img src="pic/common/svg/csdn.svg" alt="CSDN" height="20"></a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://juejin.cn/user/3824524390049531"><img src="pic/common/svg/juejin.svg" alt="掘金" height="20"></a>
 </p>
 
