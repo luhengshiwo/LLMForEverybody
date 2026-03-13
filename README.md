@@ -2,10 +2,13 @@
 <img src="pic/common/pr/learnllm.png" alt="LearnLLM.AI" width="600">
 </p>
 <p align="center"> 
-<a href="https://mp.weixin.qq.com/s/cV6v7yGmwYa2WwNDZjLPiQ"> <img src="pic/common/svg/wechat.svg" > </a>
-<a href="https://www.zhihu.com/people/luhengshiwo"> <img src="pic/common/svg/zhihu.svg"> </a>
-<a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"> <img src="pic/common/svg/csdn.svg"> </a>
-<a href="https://juejin.cn/user/3824524390049531"> <img src="pic/common/svg/juejin.svg"> </a>
+  <a href="https://mp.weixin.qq.com/s/cV6v7yGmwYa2WwNDZjLPiQ"><img src="pic/common/svg/wechat.svg" alt="微信公众号" height="20"></a>
+  &nbsp;
+  <a href="https://www.zhihu.com/people/luhengshiwo"><img src="pic/common/svg/zhihu.svg" alt="知乎" height="20"></a>
+  &nbsp;
+  <a href="https://blog.csdn.net/qq_25295605?spm=1011.2415.3001.5343"><img src="pic/common/svg/csdn.svg" alt="CSDN" height="20"></a>
+  &nbsp;
+  <a href="https://juejin.cn/user/3824524390049531"><img src="pic/common/svg/juejin.svg" alt="掘金" height="20"></a>
 </p>
 
 <p align="center"><strong>Learning LLM is all you need.</strong></p>
@@ -50,8 +53,8 @@
 | 2021-07-07 | [CodeX](https://arxiv.org/abs/2107.03374) | 面向代码生成的 GPT 系列模型 | [<img src="https://learnllm.ai/video_cover/codex.jpg" width="200">](https://www.bilibili.com/video/BV1JC67BEE7b) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=codex&ref=github) |
 | 2022-02-08 | [AlphaCode](https://arxiv.org/abs/2203.07814) | 竞赛级代码生成系统 | [<img src="https://learnllm.ai/video_cover/alphacode.jpg" width="200">](https://www.bilibili.com/video/BV1KbFTz2E8p) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=alphacode&ref=github) |
 | 2022-03-04 | [InstructGPT](https://arxiv.org/abs/2203.02155) | 人类反馈对齐与指令微调 | [<img src="https://learnllm.ai/video_cover/instructgpt.jpg" width="200">](https://www.bilibili.com/video/BV1qVFFzCERD) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=instructgpt&ref=github) |
-| 2023-02-27 | [LLaMA-1](https://arxiv.org/pdf/2302.13971) | 高效开源预训练基座模型 |  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=llama1&ref=github) |
-| 2023-07-18 | [LLaMA-2](https://arxiv.org/abs/2307.09288) | LLaMA 升级版，开放商用 |  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=llama2&ref=github) |
+| 2023-02-27 | [LLaMA-1](https://arxiv.org/pdf/2302.13971) | 高效开源预训练基座模型 | [<img src="https://learnllm.ai/video_cover/llama-1.jpg" width="200">](https://www.bilibili.com/video/BV1PqNMzZEw2) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=llama1&ref=github) |
+| 2023-07-18 | [LLaMA-2](https://arxiv.org/abs/2307.09288) | LLaMA 升级版，开放商用 |  [<img src="https://learnllm.ai/video_cover/llama-2.jpg" width="200">](https://www.bilibili.com/video/BV1ckNMzsEXJ)  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=llama2&ref=github) |
 | 2023-09-28 | [Qwen 1](https://arxiv.org/abs/2309.16609) | 通义千问第一代基座模型 |  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=qwen-1&ref=github) |
 | 2023-10-10 | [Mistral 7B](https://arxiv.org/abs/2310.06825) | 高效 7B 级开源模型 |  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=mistral-7b&ref=github) |
 持续更新中...
