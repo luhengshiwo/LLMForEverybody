@@ -55,8 +55,8 @@
 | 2022-03-04 | [InstructGPT](https://arxiv.org/abs/2203.02155) | 人类反馈对齐与指令微调 | [<img src="https://learnllm.ai/video_cover/instructgpt.jpg" width="200">](https://www.bilibili.com/video/BV1qVFFzCERD) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=instructgpt&ref=github) |
 | 2023-02-27 | [LLaMA-1](https://arxiv.org/pdf/2302.13971) | 高效开源预训练基座模型 | [<img src="https://learnllm.ai/video_cover/llama-1.jpg" width="200">](https://www.bilibili.com/video/BV1PqNMzZEw2) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=llama1&ref=github) |
 | 2023-07-18 | [LLaMA-2](https://arxiv.org/abs/2307.09288) | LLaMA 升级版，开放商用 |  [<img src="https://learnllm.ai/video_cover/llama-2.jpg" width="200">](https://www.bilibili.com/video/BV1ckNMzsEXJ)  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=llama2&ref=github) |
-| 2023-09-28 | [Qwen 1](https://arxiv.org/abs/2309.16609) | 通义千问第一代基座模型 |  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=qwen-1&ref=github) |
-| 2023-10-10 | [Mistral 7B](https://arxiv.org/abs/2310.06825) | 高效 7B 级开源模型 |  | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=mistral-7b&ref=github) |
+| 2023-09-28 | [Qwen 1](https://arxiv.org/abs/2309.16609) | 通义千问第一代基座模型 | [<img src="https://learnllm.ai/video_cover/qwen1.jpg" width="200">](https://www.bilibili.com/video/BV1FdwtziE2M) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=qwen-1&ref=github) |
+| 2023-10-10 | [Mistral 7B](https://arxiv.org/abs/2310.06825) | 高效 7B 级开源模型 | [<img src="https://learnllm.ai/video_cover/mistral_7b.jpg" width="200">](https://www.bilibili.com/video/BV19uwbzdEjj) | [![LearnLLM.AI](https://img.shields.io/badge/LearnLLM.AI-green)](https://www.learnllm.ai/learning?milestone=mistral-7b&ref=github) |
 持续更新中...
 
 <details open>
