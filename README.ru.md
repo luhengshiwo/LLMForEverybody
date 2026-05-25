@@ -19,7 +19,7 @@
 
 <p align="center"><strong>👉 Перейти на <a href="https://learnllm.ai?ref=github">LearnLLM.AI</a> | Изучайте LLM, начав отсюда</strong></p>
 
-<p align="center"><strong>Русская карта материалов: <a href="docs/ru/index.md">docs/ru</a></strong></p>
+<p align="center"><strong>Русская карта материалов: <a href="docs/ru/README.md">docs/ru</a></strong></p>
 
 ## Ключевые преимущества LearnLLM.AI
 
