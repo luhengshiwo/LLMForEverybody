@@ -459,4 +459,4 @@ Continuously updated...
 ## 🌐 Visit [LearnLLM.AI](https://learnllm.ai?ref=github) | Start learning large language models here
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=luhengshiwo/LLMForEverybody&type=Date)](https://star-history.com/#luhengshiwo/LLMForEverybody&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=luhengshiwo/LLMForEverybody&type=Date)](https://star-history.dera.page/#luhengshiwo/LLMForEverybody&Date)
