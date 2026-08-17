@@ -461,4 +461,4 @@
 ## 🌐 点击 [LearnLLM.AI](https://learnllm.ai?ref=github) | 学习大模型，从这里开始
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=luhengshiwo/LLMForEverybody&type=Date)](https://star-history.com/#luhengshiwo/LLMForEverybody&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=luhengshiwo/LLMForEverybody&type=Date)](https://star-history.dera.page/#luhengshiwo/LLMForEverybody&Date)
