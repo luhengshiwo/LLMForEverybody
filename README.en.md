@@ -376,6 +376,8 @@ Continuously updated...
 
 [LangChain to the left, Coze to the right](07-第七章-Agent/langchain向左coze向右.md)
 
+[What is a sandbox: concept and three implementation approaches](<07-第七章-Agent/什么是沙箱：概念与三种实现方式.md>)
+
 #### RAG
 
 [Vector databases embrace LLMs](07-第七章-Agent/向量数据库拥抱大模型.md)
